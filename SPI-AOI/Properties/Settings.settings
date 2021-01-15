@@ -1,0 +1,306 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="SPI_AOI.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="DPI_DEFAULT" Type="System.Single" Scope="User">
+      <Value Profile="(Default)">785.6</Value>
+    </Setting>
+    <Setting Name="FOV" Type="System.Drawing.Size" Scope="User">
+      <Value Profile="(Default)">1400, 1200</Value>
+    </Setting>
+    <Setting Name="PLC_IP" Type="System.String" Scope="User">
+      <Value Profile="(Default)">192.168.3.100</Value>
+    </Setting>
+    <Setting Name="PLC_PORT" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">9999</Value>
+    </Setting>
+    <Setting Name="PLC_BIT_GO_UP_TOP" Type="System.String" Scope="User">
+      <Value Profile="(Default)">M301</Value>
+    </Setting>
+    <Setting Name="PLC_BIT_GO_DOWN_TOP" Type="System.String" Scope="User">
+      <Value Profile="(Default)">M300</Value>
+    </Setting>
+    <Setting Name="PLC_BIT_GO_LEFT_TOP" Type="System.String" Scope="User">
+      <Value Profile="(Default)">M303</Value>
+    </Setting>
+    <Setting Name="PLC_BIT_GO_RIGHT_TOP" Type="System.String" Scope="User">
+      <Value Profile="(Default)">M302</Value>
+    </Setting>
+    <Setting Name="PLC_BIT_LOAD_PRODUCT_SETUP" Type="System.String" Scope="User">
+      <Value Profile="(Default)">M192</Value>
+    </Setting>
+    <Setting Name="PLC_REG_SPEED_TOP" Type="System.String" Scope="User">
+      <Value Profile="(Default)">D208</Value>
+    </Setting>
+    <Setting Name="PLC_REG_X_TOP" Type="System.String" Scope="User">
+      <Value Profile="(Default)">D1002</Value>
+    </Setting>
+    <Setting Name="PLC_REG_Y_TOP" Type="System.String" Scope="User">
+      <Value Profile="(Default)">D1000</Value>
+    </Setting>
+    <Setting Name="PLC_REG_X_BOT" Type="System.String" Scope="User">
+      <Value Profile="(Default)">D1006</Value>
+    </Setting>
+    <Setting Name="PLC_REG_Y_BOT" Type="System.String" Scope="User">
+      <Value Profile="(Default)">D1004</Value>
+    </Setting>
+    <Setting Name="PLC_BIT_ERROR_MACHINE" Type="System.String" Scope="User">
+      <Value Profile="(Default)">M600</Value>
+    </Setting>
+    <Setting Name="PLC_BIT_UNLOAD_PRODUCT_SETUP" Type="System.String" Scope="User">
+      <Value Profile="(Default)">M193</Value>
+    </Setting>
+    <Setting Name="PLC_BIT_HAS_PRODUCT_TOP" Type="System.String" Scope="User">
+      <Value Profile="(Default)">M100</Value>
+    </Setting>
+    <Setting Name="PLC_BIT_WRITE_COORDINATES_FINISH_TOP" Type="System.String" Scope="User">
+      <Value Profile="(Default)">M101</Value>
+    </Setting>
+    <Setting Name="PLC_BIT_GO_COORDINATES_FINISH_TOP" Type="System.String" Scope="User">
+      <Value Profile="(Default)">M102</Value>
+    </Setting>
+    <Setting Name="PLC_BIT_PRODUCT_FAIL" Type="System.String" Scope="User">
+      <Value Profile="(Default)">M112</Value>
+    </Setting>
+    <Setting Name="PLC_BIT_PRODUCT_PASS" Type="System.String" Scope="User">
+      <Value Profile="(Default)">M113</Value>
+    </Setting>
+    <Setting Name="PLC_BIT_DOOR_STATUS" Type="System.String" Scope="User">
+      <Value Profile="(Default)">M3</Value>
+    </Setting>
+    <Setting Name="PLC_BIT_MACHINE_STATUS" Type="System.String" Scope="User">
+      <Value Profile="(Default)">M163</Value>
+    </Setting>
+    <Setting Name="PLC_BIT_HAS_PRODUCT_BOT" Type="System.String" Scope="User">
+      <Value Profile="(Default)">M105</Value>
+    </Setting>
+    <Setting Name="PLC_BIT_READ_QRCODE_FAIL" Type="System.String" Scope="User">
+      <Value Profile="(Default)">M502</Value>
+    </Setting>
+    <Setting Name="PLC_BIT_CAPTURE_FAIL" Type="System.String" Scope="User">
+      <Value Profile="(Default)">M500</Value>
+    </Setting>
+    <Setting Name="LIGHT_COM" Type="System.String" Scope="User">
+      <Value Profile="(Default)">COM5</Value>
+    </Setting>
+    <Setting Name="PLC_BIT_GO_UP_BOT" Type="System.String" Scope="User">
+      <Value Profile="(Default)">M321</Value>
+    </Setting>
+    <Setting Name="PLC_BIT_GO_DOWN_BOT" Type="System.String" Scope="User">
+      <Value Profile="(Default)">M320</Value>
+    </Setting>
+    <Setting Name="PLC_BIT_GO_LEFT_BOT" Type="System.String" Scope="User">
+      <Value Profile="(Default)">M323</Value>
+    </Setting>
+    <Setting Name="PLC_BIT_GO_RIGHT_BOT" Type="System.String" Scope="User">
+      <Value Profile="(Default)">M322</Value>
+    </Setting>
+    <Setting Name="PLC_BIT_GO_UP_CONVEYOR" Type="System.String" Scope="User">
+      <Value Profile="(Default)">M341</Value>
+    </Setting>
+    <Setting Name="PLC_BIT_GO_DOWN_CONVEYOR" Type="System.String" Scope="User">
+      <Value Profile="(Default)">M340</Value>
+    </Setting>
+    <Setting Name="PLC_REG_CONVEYOR" Type="System.String" Scope="User">
+      <Value Profile="(Default)">D1008</Value>
+    </Setting>
+    <Setting Name="PLC_REG_SPEED_BOT" Type="System.String" Scope="User">
+      <Value Profile="(Default)">D228</Value>
+    </Setting>
+    <Setting Name="PLC_REG_SPEED_CONVEYOR" Type="System.String" Scope="User">
+      <Value Profile="(Default)">D246</Value>
+    </Setting>
+    <Setting Name="PLC_BIT_WRITE_COORDINATES_FINISH_BOT" Type="System.String" Scope="User">
+      <Value Profile="(Default)">M106</Value>
+    </Setting>
+    <Setting Name="PLC_BIT_GO_COORDINATES_FINISH_BOT" Type="System.String" Scope="User">
+      <Value Profile="(Default)">M107</Value>
+    </Setting>
+    <Setting Name="PLC_BIT_GO_COORDINATES_FINISH_CONVEYOR" Type="System.String" Scope="User">
+      <Value Profile="(Default)">M140</Value>
+    </Setting>
+    <Setting Name="PLC_BIT_WRITE_COORDINATES_FINISH_CONVEYOR" Type="System.String" Scope="User">
+      <Value Profile="(Default)">M110</Value>
+    </Setting>
+    <Setting Name="SCANER_COM" Type="System.String" Scope="User">
+      <Value Profile="(Default)">COM6</Value>
+    </Setting>
+    <Setting Name="PLC_REG_PASSWORD" Type="System.String" Scope="User">
+      <Value Profile="(Default)">D0</Value>
+    </Setting>
+    <Setting Name="PLC_BIT_WRITE_COORDINATES_FINISH_SETUP_TOP" Type="System.String" Scope="User">
+      <Value Profile="(Default)">M316</Value>
+    </Setting>
+    <Setting Name="PLC_BIT_WRITE_COORDINATES_FINISH_SETUP_BOT" Type="System.String" Scope="User">
+      <Value Profile="(Default)">M336</Value>
+    </Setting>
+    <Setting Name="PLC_BIT_WRITE_COORDINATES_FINISH_SETUP_CONVEYOR" Type="System.String" Scope="User">
+      <Value Profile="(Default)">M354</Value>
+    </Setting>
+    <Setting Name="PLC_BIT_GO_COORDINATES_FINISH_SETUP_TOP" Type="System.String" Scope="User">
+      <Value Profile="(Default)">M121</Value>
+    </Setting>
+    <Setting Name="PLC_BIT_GO_COORDINATES_FINISH_SETUP_BOT" Type="System.String" Scope="User">
+      <Value Profile="(Default)">M122</Value>
+    </Setting>
+    <Setting Name="PLC_BIT_GO_COORDINATES_FINISH_SETUP_CONVEYOR" Type="System.String" Scope="User">
+      <Value Profile="(Default)">M120</Value>
+    </Setting>
+    <Setting Name="RUNNING_MODE" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="PLC_REG_CONVEYOR_READ" Type="System.String" Scope="User">
+      <Value Profile="(Default)">D1010</Value>
+    </Setting>
+    <Setting Name="PLC_REG_SPEED_RUN_X_TOP" Type="System.String" Scope="User">
+      <Value Profile="(Default)">D218</Value>
+    </Setting>
+    <Setting Name="PLC_REG_SPEED_RUN_Y_TOP" Type="System.String" Scope="User">
+      <Value Profile="(Default)">D216</Value>
+    </Setting>
+    <Setting Name="PLC_REG_SPEED_RUN_X_BOT" Type="System.String" Scope="User">
+      <Value Profile="(Default)">D238</Value>
+    </Setting>
+    <Setting Name="PLC_REG_SPEED_RUN_Y_BOT" Type="System.String" Scope="User">
+      <Value Profile="(Default)">D236</Value>
+    </Setting>
+    <Setting Name="PLC_REG_SPEED_RUN_CONVEYOR" Type="System.String" Scope="User">
+      <Value Profile="(Default)">D254</Value>
+    </Setting>
+    <Setting Name="PLC_REG_X_TOP_READ" Type="System.String" Scope="User">
+      <Value Profile="(Default)">D1014</Value>
+    </Setting>
+    <Setting Name="PLC_REG_Y_TOP_READ" Type="System.String" Scope="User">
+      <Value Profile="(Default)">D1012</Value>
+    </Setting>
+    <Setting Name="PLC_REG_X_BOT_READ" Type="System.String" Scope="User">
+      <Value Profile="(Default)">D1018</Value>
+    </Setting>
+    <Setting Name="PLC_REG_Y_BOT_READ" Type="System.String" Scope="User">
+      <Value Profile="(Default)">D1016</Value>
+    </Setting>
+    <Setting Name="LIGHT_SETUP_DEFAULT_INTENSITY_CH1" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">255</Value>
+    </Setting>
+    <Setting Name="LIGHT_SETUP_DEFAULT_INTENSITY_CH2" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">100</Value>
+    </Setting>
+    <Setting Name="LIGHT_SETUP_DEFAULT_INTENSITY_CH3" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="LIGHT_SETUP_DEFAULT_INTENSITY_CH4" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">65</Value>
+    </Setting>
+    <Setting Name="USER_LOGIN" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Admin</Value>
+    </Setting>
+    <Setting Name="DPI_SCALE" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">3.636363636363</Value>
+    </Setting>
+    <Setting Name="THICKNESS_DEFAULT" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">1.65</Value>
+    </Setting>
+    <Setting Name="PULSE_X_PER_PIXEL_DEFAULT" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">3.230980752</Value>
+    </Setting>
+    <Setting Name="PULSE_Y_PER_PIXEL_DEFAULT" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">3.23752057</Value>
+    </Setting>
+    <Setting Name="SCALE_PULSE_X" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0.015214561</Value>
+    </Setting>
+    <Setting Name="SCALE_PULSE_Y" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0.015214561</Value>
+    </Setting>
+    <Setting Name="CAMERA_X_AXIS_ANGLE" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0.45011422</Value>
+    </Setting>
+    <Setting Name="XY_AXIS_ANGLE" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="PLC_LIMIT_X_TOP" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">40100</Value>
+    </Setting>
+    <Setting Name="PLC_LIMIT_Y_TOP" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">40100</Value>
+    </Setting>
+    <Setting Name="PLC_LIMIT_X_BOT" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">40100</Value>
+    </Setting>
+    <Setting Name="PLC_LIMIT_Y_BOT" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">40100</Value>
+    </Setting>
+    <Setting Name="PLC_LIMIT_CONVEYOR" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">2147483</Value>
+    </Setting>
+    <Setting Name="CAMERA_SETUP_EXPOSURE_TIME" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">2000</Value>
+    </Setting>
+    <Setting Name="PLC_BIT_RESET_AFTER_LOGOUT" Type="System.String" Scope="User">
+      <Value Profile="(Default)">M2996</Value>
+    </Setting>
+    <Setting Name="PLC_REG_PENAL_POSITION" Type="System.String" Scope="User">
+      <Value Profile="(Default)">D292</Value>
+    </Setting>
+    <Setting Name="CAMERA_MATRIX_FILE" Type="System.String" Scope="User">
+      <Value Profile="(Default)">..\..\..\..\Calibrate\matrix.txt</Value>
+    </Setting>
+    <Setting Name="CAMERA_DISTCOEFFS_FILE" Type="System.String" Scope="User">
+      <Value Profile="(Default)">..\..\..\..\Calibrate\dis.txt</Value>
+    </Setting>
+    <Setting Name="IMAGE_SIZE" Type="System.Drawing.Size" Scope="User">
+      <Value Profile="(Default)">2448, 2048</Value>
+    </Setting>
+    <Setting Name="SAVE_IMAGE_PATH" Type="System.String" Scope="User">
+      <Value Profile="(Default)">D:\Save</Value>
+    </Setting>
+    <Setting Name="SAVE_IMAGE_HOURS" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">120</Value>
+    </Setting>
+    <Setting Name="LIGHT_MODE" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="CAMERA_GAIN" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="RUN_X_TOP_SPEED" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">200000</Value>
+    </Setting>
+    <Setting Name="RUN_Y_TOP_SPEED" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">200000</Value>
+    </Setting>
+    <Setting Name="RUN_CONVEYOR_SPEED" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">30000</Value>
+    </Setting>
+    <Setting Name="RUN_Y_BOT_SPEED" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">50000</Value>
+    </Setting>
+    <Setting Name="RUN_X_BOT_SPEED" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">50000</Value>
+    </Setting>
+    <Setting Name="LIGHT_VI_DEFAULT_INTENSITY_CH1" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">255</Value>
+    </Setting>
+    <Setting Name="LIGHT_VI_DEFAULT_INTENSITY_CH2" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">75</Value>
+    </Setting>
+    <Setting Name="LIGHT_VI_DEFAULT_INTENSITY_CH3" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="LIGHT_VI_DEFAULT_INTENSITY_CH4" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">40</Value>
+    </Setting>
+    <Setting Name="CAMERA_VI_EXPOSURE_TIME" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">5000</Value>
+    </Setting>
+    <Setting Name="Debug" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="ServiceURL" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://127.0.0.1:812</Value>
+    </Setting>
+    <Setting Name="LIMIT_SHOW_ERROR" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">50</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

@@ -1,0 +1,628 @@
+D:\Heal\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\SPI-AOI.exe.config
+D:\Heal\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\SPI-AOI.exe
+D:\Heal\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\SPI-AOI.pdb
+D:\Heal\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\MainWindow.g.cs
+D:\Heal\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\AutoAdjustWindow.g.cs
+D:\Heal\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\DashBoard.g.cs
+D:\Heal\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\FOVCaptureWindow.g.cs
+D:\Heal\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\HardwareWindow.g.cs
+D:\Heal\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\NewModel.g.cs
+D:\Heal\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\SuggestLinkPadWindow.g.cs
+D:\Heal\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\AvailabilityLayerWindow.g.cs
+D:\Heal\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\GerberTools.g.cs
+D:\Heal\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\RotationWindow.g.cs
+D:\Heal\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\PadconditionWindow.g.cs
+D:\Heal\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\XYMovingWindow.g.cs
+D:\Heal\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\UserManagement\LoginWindow.g.cs
+D:\Heal\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\WaitingForm.g.cs
+D:\Heal\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\App.g.cs
+D:\Heal\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\SPI-AOI_Content.g.cs
+D:\Heal\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Heal\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\SPI-AOI_MarkupCompile.cache
+D:\Heal\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\SPI-AOI_MarkupCompile.lref
+D:\Heal\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\NLog.config
+D:\Heal\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\x64\concrt140.dll
+D:\Heal\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\x64\cvextern.dll
+D:\Heal\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\x64\msvcp140.dll
+D:\Heal\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\x64\opencv_videoio_ffmpeg411_64.dll
+D:\Heal\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\x64\vcruntime140.dll
+D:\Heal\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\SPI-AOI.exe
+D:\Heal\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\SPI-AOI.pdb
+D:\Heal\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\Emgu.CV.UI.dll
+D:\Heal\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\Emgu.CV.World.dll
+D:\Heal\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\MvCameraControl.Net.dll
+D:\Heal\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\Newtonsoft.Json.dll
+D:\Heal\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\NLog.dll
+D:\Heal\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\System.Data.SQLite.dll
+D:\Heal\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\Xceed.Wpf.AvalonDock.dll
+D:\Heal\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+D:\Heal\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+D:\Heal\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+D:\Heal\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\Xceed.Wpf.Toolkit.dll
+D:\Heal\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\ZedGraph.dll
+D:\Heal\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\Emgu.CV.UI.xml
+D:\Heal\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\Emgu.CV.World.xml
+D:\Heal\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\Newtonsoft.Json.xml
+D:\Heal\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\NLog.xml
+D:\Heal\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\System.Data.SQLite.xml
+D:\Heal\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\ZedGraph.xml
+D:\Heal\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\cs-CZ\Xceed.Wpf.AvalonDock.resources.dll
+D:\Heal\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+D:\Heal\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+D:\Heal\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+D:\Heal\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+D:\Heal\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+D:\Heal\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+D:\Heal\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+D:\Heal\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+D:\Heal\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+D:\Heal\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+D:\Heal\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\de\ZedGraph.resources.dll
+D:\Heal\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\es\ZedGraph.resources.dll
+D:\Heal\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\fr\ZedGraph.resources.dll
+D:\Heal\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\hu\ZedGraph.resources.dll
+D:\Heal\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\it\ZedGraph.resources.dll
+D:\Heal\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\ja\ZedGraph.resources.dll
+D:\Heal\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\pt\ZedGraph.resources.dll
+D:\Heal\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\ru\ZedGraph.resources.dll
+D:\Heal\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\sk\ZedGraph.resources.dll
+D:\Heal\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\sv\ZedGraph.resources.dll
+D:\Heal\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\tr\ZedGraph.resources.dll
+D:\Heal\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\zh-cn\ZedGraph.resources.dll
+D:\Heal\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\zh-tw\ZedGraph.resources.dll
+D:\Heal\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\MainWindow.baml
+D:\Heal\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\AutoAdjustWindow.baml
+D:\Heal\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\DashBoard.baml
+D:\Heal\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\FOVCaptureWindow.baml
+D:\Heal\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\HardwareWindow.baml
+D:\Heal\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\NewModel.baml
+D:\Heal\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\SuggestLinkPadWindow.baml
+D:\Heal\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\AvailabilityLayerWindow.baml
+D:\Heal\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\GerberTools.baml
+D:\Heal\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\RotationWindow.baml
+D:\Heal\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\PadconditionWindow.baml
+D:\Heal\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\XYMovingWindow.baml
+D:\Heal\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\Styles\Base.baml
+D:\Heal\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\UserManagement\LoginWindow.baml
+D:\Heal\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\WaitingForm.baml
+D:\Heal\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\SPI-AOI.g.resources
+D:\Heal\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\SPI_AOI.Properties.Resources.resources
+D:\Heal\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\SPI-AOI.csproj.GenerateResource.Cache
+F:\Heal\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\SPI-AOI.exe
+F:\Heal\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\NLog.dll
+D:\Heal\Projects\B06\SPI\Source code\CSharp\SPI-AOI\SPI-AOI\bin\x64\Debug\SPI-AOI.exe.config
+D:\Heal\Projects\B06\SPI\Source code\CSharp\SPI-AOI\SPI-AOI\obj\x64\Debug\SPI-AOI.exe
+D:\Heal\Projects\B06\SPI\Source code\CSharp\SPI-AOI\SPI-AOI\obj\x64\Debug\SPI-AOI.pdb
+D:\Heal\Projects\B06\SPI\Source code\CSharp\SPI-AOI\SPI-AOI\bin\x64\Debug\NLog.config
+D:\Heal\Projects\B06\SPI\Source code\CSharp\SPI-AOI\SPI-AOI\bin\x64\Debug\x64\concrt140.dll
+D:\Heal\Projects\B06\SPI\Source code\CSharp\SPI-AOI\SPI-AOI\bin\x64\Debug\x64\cvextern.dll
+D:\Heal\Projects\B06\SPI\Source code\CSharp\SPI-AOI\SPI-AOI\bin\x64\Debug\x64\msvcp140.dll
+D:\Heal\Projects\B06\SPI\Source code\CSharp\SPI-AOI\SPI-AOI\bin\x64\Debug\x64\opencv_videoio_ffmpeg411_64.dll
+D:\Heal\Projects\B06\SPI\Source code\CSharp\SPI-AOI\SPI-AOI\bin\x64\Debug\x64\vcruntime140.dll
+D:\Heal\Projects\B06\SPI\Source code\CSharp\SPI-AOI\SPI-AOI\bin\x64\Debug\SPI-AOI.exe
+D:\Heal\Projects\B06\SPI\Source code\CSharp\SPI-AOI\SPI-AOI\bin\x64\Debug\SPI-AOI.pdb
+D:\Heal\Projects\B06\SPI\Source code\CSharp\SPI-AOI\SPI-AOI\bin\x64\Debug\Emgu.CV.UI.dll
+D:\Heal\Projects\B06\SPI\Source code\CSharp\SPI-AOI\SPI-AOI\bin\x64\Debug\Emgu.CV.World.dll
+D:\Heal\Projects\B06\SPI\Source code\CSharp\SPI-AOI\SPI-AOI\bin\x64\Debug\MvCameraControl.Net.dll
+D:\Heal\Projects\B06\SPI\Source code\CSharp\SPI-AOI\SPI-AOI\bin\x64\Debug\Newtonsoft.Json.dll
+D:\Heal\Projects\B06\SPI\Source code\CSharp\SPI-AOI\SPI-AOI\bin\x64\Debug\NLog.dll
+D:\Heal\Projects\B06\SPI\Source code\CSharp\SPI-AOI\SPI-AOI\bin\x64\Debug\System.Data.SQLite.dll
+D:\Heal\Projects\B06\SPI\Source code\CSharp\SPI-AOI\SPI-AOI\bin\x64\Debug\Xceed.Wpf.AvalonDock.dll
+D:\Heal\Projects\B06\SPI\Source code\CSharp\SPI-AOI\SPI-AOI\bin\x64\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+D:\Heal\Projects\B06\SPI\Source code\CSharp\SPI-AOI\SPI-AOI\bin\x64\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+D:\Heal\Projects\B06\SPI\Source code\CSharp\SPI-AOI\SPI-AOI\bin\x64\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+D:\Heal\Projects\B06\SPI\Source code\CSharp\SPI-AOI\SPI-AOI\bin\x64\Debug\Xceed.Wpf.Toolkit.dll
+D:\Heal\Projects\B06\SPI\Source code\CSharp\SPI-AOI\SPI-AOI\bin\x64\Debug\ZedGraph.dll
+D:\Heal\Projects\B06\SPI\Source code\CSharp\SPI-AOI\SPI-AOI\bin\x64\Debug\zxing.dll
+D:\Heal\Projects\B06\SPI\Source code\CSharp\SPI-AOI\SPI-AOI\bin\x64\Debug\zxing.presentation.dll
+D:\Heal\Projects\B06\SPI\Source code\CSharp\SPI-AOI\SPI-AOI\bin\x64\Debug\Emgu.CV.UI.xml
+D:\Heal\Projects\B06\SPI\Source code\CSharp\SPI-AOI\SPI-AOI\bin\x64\Debug\Emgu.CV.World.xml
+D:\Heal\Projects\B06\SPI\Source code\CSharp\SPI-AOI\SPI-AOI\bin\x64\Debug\MvCameraControl.Net.xml
+D:\Heal\Projects\B06\SPI\Source code\CSharp\SPI-AOI\SPI-AOI\bin\x64\Debug\Newtonsoft.Json.xml
+D:\Heal\Projects\B06\SPI\Source code\CSharp\SPI-AOI\SPI-AOI\bin\x64\Debug\NLog.xml
+D:\Heal\Projects\B06\SPI\Source code\CSharp\SPI-AOI\SPI-AOI\bin\x64\Debug\System.Data.SQLite.xml
+D:\Heal\Projects\B06\SPI\Source code\CSharp\SPI-AOI\SPI-AOI\bin\x64\Debug\ZedGraph.xml
+D:\Heal\Projects\B06\SPI\Source code\CSharp\SPI-AOI\SPI-AOI\bin\x64\Debug\zxing.xml
+D:\Heal\Projects\B06\SPI\Source code\CSharp\SPI-AOI\SPI-AOI\bin\x64\Debug\zxing.presentation.xml
+D:\Heal\Projects\B06\SPI\Source code\CSharp\SPI-AOI\SPI-AOI\bin\x64\Debug\cs-CZ\Xceed.Wpf.AvalonDock.resources.dll
+D:\Heal\Projects\B06\SPI\Source code\CSharp\SPI-AOI\SPI-AOI\bin\x64\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+D:\Heal\Projects\B06\SPI\Source code\CSharp\SPI-AOI\SPI-AOI\bin\x64\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+D:\Heal\Projects\B06\SPI\Source code\CSharp\SPI-AOI\SPI-AOI\bin\x64\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+D:\Heal\Projects\B06\SPI\Source code\CSharp\SPI-AOI\SPI-AOI\bin\x64\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+D:\Heal\Projects\B06\SPI\Source code\CSharp\SPI-AOI\SPI-AOI\bin\x64\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+D:\Heal\Projects\B06\SPI\Source code\CSharp\SPI-AOI\SPI-AOI\bin\x64\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+D:\Heal\Projects\B06\SPI\Source code\CSharp\SPI-AOI\SPI-AOI\bin\x64\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+D:\Heal\Projects\B06\SPI\Source code\CSharp\SPI-AOI\SPI-AOI\bin\x64\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+D:\Heal\Projects\B06\SPI\Source code\CSharp\SPI-AOI\SPI-AOI\bin\x64\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+D:\Heal\Projects\B06\SPI\Source code\CSharp\SPI-AOI\SPI-AOI\bin\x64\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+D:\Heal\Projects\B06\SPI\Source code\CSharp\SPI-AOI\SPI-AOI\bin\x64\Debug\de\ZedGraph.resources.dll
+D:\Heal\Projects\B06\SPI\Source code\CSharp\SPI-AOI\SPI-AOI\bin\x64\Debug\es\ZedGraph.resources.dll
+D:\Heal\Projects\B06\SPI\Source code\CSharp\SPI-AOI\SPI-AOI\bin\x64\Debug\fr\ZedGraph.resources.dll
+D:\Heal\Projects\B06\SPI\Source code\CSharp\SPI-AOI\SPI-AOI\bin\x64\Debug\hu\ZedGraph.resources.dll
+D:\Heal\Projects\B06\SPI\Source code\CSharp\SPI-AOI\SPI-AOI\bin\x64\Debug\it\ZedGraph.resources.dll
+D:\Heal\Projects\B06\SPI\Source code\CSharp\SPI-AOI\SPI-AOI\bin\x64\Debug\ja\ZedGraph.resources.dll
+D:\Heal\Projects\B06\SPI\Source code\CSharp\SPI-AOI\SPI-AOI\bin\x64\Debug\pt\ZedGraph.resources.dll
+D:\Heal\Projects\B06\SPI\Source code\CSharp\SPI-AOI\SPI-AOI\bin\x64\Debug\ru\ZedGraph.resources.dll
+D:\Heal\Projects\B06\SPI\Source code\CSharp\SPI-AOI\SPI-AOI\bin\x64\Debug\sk\ZedGraph.resources.dll
+D:\Heal\Projects\B06\SPI\Source code\CSharp\SPI-AOI\SPI-AOI\bin\x64\Debug\sv\ZedGraph.resources.dll
+D:\Heal\Projects\B06\SPI\Source code\CSharp\SPI-AOI\SPI-AOI\bin\x64\Debug\tr\ZedGraph.resources.dll
+D:\Heal\Projects\B06\SPI\Source code\CSharp\SPI-AOI\SPI-AOI\bin\x64\Debug\zh-cn\ZedGraph.resources.dll
+D:\Heal\Projects\B06\SPI\Source code\CSharp\SPI-AOI\SPI-AOI\bin\x64\Debug\zh-tw\ZedGraph.resources.dll
+D:\Heal\Projects\B06\SPI\Source code\CSharp\SPI-AOI\SPI-AOI\obj\x64\Debug\SPI-AOI.csprojResolveAssemblyReference.cache
+D:\Heal\Projects\B06\SPI\Source code\CSharp\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\MainWindow.g.cs
+D:\Heal\Projects\B06\SPI\Source code\CSharp\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\AutoAdjustWindow.g.cs
+D:\Heal\Projects\B06\SPI\Source code\CSharp\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\DashBoard.g.cs
+D:\Heal\Projects\B06\SPI\Source code\CSharp\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\FOVCaptureWindow.g.cs
+D:\Heal\Projects\B06\SPI\Source code\CSharp\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\HardwareWindow.g.cs
+D:\Heal\Projects\B06\SPI\Source code\CSharp\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\NewModel.g.cs
+D:\Heal\Projects\B06\SPI\Source code\CSharp\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\SuggestLinkPadWindow.g.cs
+D:\Heal\Projects\B06\SPI\Source code\CSharp\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\AvailabilityLayerWindow.g.cs
+D:\Heal\Projects\B06\SPI\Source code\CSharp\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\GerberTools.g.cs
+D:\Heal\Projects\B06\SPI\Source code\CSharp\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\RotationWindow.g.cs
+D:\Heal\Projects\B06\SPI\Source code\CSharp\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\PadconditionWindow.g.cs
+D:\Heal\Projects\B06\SPI\Source code\CSharp\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\XYMovingWindow.g.cs
+D:\Heal\Projects\B06\SPI\Source code\CSharp\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\UserManagement\LoginWindow.g.cs
+D:\Heal\Projects\B06\SPI\Source code\CSharp\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\WaitingForm.g.cs
+D:\Heal\Projects\B06\SPI\Source code\CSharp\SPI-AOI\SPI-AOI\obj\x64\Debug\App.g.cs
+D:\Heal\Projects\B06\SPI\Source code\CSharp\SPI-AOI\SPI-AOI\obj\x64\Debug\SPI-AOI_Content.g.cs
+D:\Heal\Projects\B06\SPI\Source code\CSharp\SPI-AOI\SPI-AOI\obj\x64\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Heal\Projects\B06\SPI\Source code\CSharp\SPI-AOI\SPI-AOI\obj\x64\Debug\SPI-AOI_MarkupCompile.cache
+D:\Heal\Projects\B06\SPI\Source code\CSharp\SPI-AOI\SPI-AOI\obj\x64\Debug\SPI-AOI_MarkupCompile.lref
+D:\Heal\Projects\B06\SPI\Source code\CSharp\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\MainWindow.baml
+D:\Heal\Projects\B06\SPI\Source code\CSharp\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\AutoAdjustWindow.baml
+D:\Heal\Projects\B06\SPI\Source code\CSharp\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\DashBoard.baml
+D:\Heal\Projects\B06\SPI\Source code\CSharp\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\FOVCaptureWindow.baml
+D:\Heal\Projects\B06\SPI\Source code\CSharp\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\HardwareWindow.baml
+D:\Heal\Projects\B06\SPI\Source code\CSharp\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\NewModel.baml
+D:\Heal\Projects\B06\SPI\Source code\CSharp\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\SuggestLinkPadWindow.baml
+D:\Heal\Projects\B06\SPI\Source code\CSharp\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\AvailabilityLayerWindow.baml
+D:\Heal\Projects\B06\SPI\Source code\CSharp\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\GerberTools.baml
+D:\Heal\Projects\B06\SPI\Source code\CSharp\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\RotationWindow.baml
+D:\Heal\Projects\B06\SPI\Source code\CSharp\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\PadconditionWindow.baml
+D:\Heal\Projects\B06\SPI\Source code\CSharp\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\XYMovingWindow.baml
+D:\Heal\Projects\B06\SPI\Source code\CSharp\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\Styles\Base.baml
+D:\Heal\Projects\B06\SPI\Source code\CSharp\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\UserManagement\LoginWindow.baml
+D:\Heal\Projects\B06\SPI\Source code\CSharp\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\WaitingForm.baml
+D:\Heal\Projects\B06\SPI\Source code\CSharp\SPI-AOI\SPI-AOI\obj\x64\Debug\SPI-AOI.g.resources
+D:\Heal\Projects\B06\SPI\Source code\CSharp\SPI-AOI\SPI-AOI\obj\x64\Debug\SPI_AOI.Views.MainConfigWindow.PLCBitconfigForm.resources
+D:\Heal\Projects\B06\SPI\Source code\CSharp\SPI-AOI\SPI-AOI\obj\x64\Debug\Heal.UI.MachineIssueForm.resources
+D:\Heal\Projects\B06\SPI\Source code\CSharp\SPI-AOI\SPI-AOI\obj\x64\Debug\SPI_AOI.Properties.Resources.resources
+D:\Heal\Projects\B06\SPI\Source code\CSharp\SPI-AOI\SPI-AOI\obj\x64\Debug\SPI-AOI.csproj.GenerateResource.Cache
+F:\Heal\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\NLog.config
+F:\Heal\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\x64\concrt140.dll
+F:\Heal\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\x64\cvextern.dll
+F:\Heal\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\x64\msvcp140.dll
+F:\Heal\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\x64\opencv_videoio_ffmpeg411_64.dll
+F:\Heal\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\x64\vcruntime140.dll
+F:\Heal\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\SPI-AOI.exe.config
+F:\Heal\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\Emgu.CV.UI.dll
+F:\Heal\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\Emgu.CV.World.dll
+F:\Heal\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\GerberLibrary.dll
+F:\Heal\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\MvCameraControl.Net.dll
+F:\Heal\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\Newtonsoft.Json.dll
+F:\Heal\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\System.Data.SQLite.dll
+F:\Heal\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\Xceed.Wpf.AvalonDock.dll
+F:\Heal\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+F:\Heal\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+F:\Heal\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+F:\Heal\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\Xceed.Wpf.Toolkit.dll
+F:\Heal\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\ZedGraph.dll
+F:\Heal\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\zxing.dll
+F:\Heal\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\zxing.presentation.dll
+F:\Heal\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\Emgu.CV.UI.xml
+F:\Heal\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\Emgu.CV.World.xml
+F:\Heal\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\Newtonsoft.Json.xml
+F:\Heal\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\NLog.xml
+F:\Heal\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\System.Data.SQLite.xml
+F:\Heal\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\ZedGraph.xml
+F:\Heal\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\zxing.xml
+F:\Heal\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\zxing.presentation.xml
+F:\Heal\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\cs-CZ\Xceed.Wpf.AvalonDock.resources.dll
+F:\Heal\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+F:\Heal\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+F:\Heal\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+F:\Heal\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+F:\Heal\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+F:\Heal\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+F:\Heal\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+F:\Heal\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+F:\Heal\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+F:\Heal\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+F:\Heal\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\de\ZedGraph.resources.dll
+F:\Heal\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\es\ZedGraph.resources.dll
+F:\Heal\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\fr\ZedGraph.resources.dll
+F:\Heal\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\hu\ZedGraph.resources.dll
+F:\Heal\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\it\ZedGraph.resources.dll
+F:\Heal\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\ja\ZedGraph.resources.dll
+F:\Heal\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\pt\ZedGraph.resources.dll
+F:\Heal\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\ru\ZedGraph.resources.dll
+F:\Heal\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\sk\ZedGraph.resources.dll
+F:\Heal\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\sv\ZedGraph.resources.dll
+F:\Heal\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\tr\ZedGraph.resources.dll
+F:\Heal\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\zh-cn\ZedGraph.resources.dll
+F:\Heal\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\zh-tw\ZedGraph.resources.dll
+F:\Heal\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\MainWindow.g.cs
+F:\Heal\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\AutoAdjustWindow.g.cs
+F:\Heal\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\DashBoard.g.cs
+F:\Heal\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\FOVCaptureWindow.g.cs
+F:\Heal\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\HardwareWindow.g.cs
+F:\Heal\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\NewModel.g.cs
+F:\Heal\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\SuggestLinkPadWindow.g.cs
+F:\Heal\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\AvailabilityLayerWindow.g.cs
+F:\Heal\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\GerberTools.g.cs
+F:\Heal\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\RotationWindow.g.cs
+F:\Heal\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\PadconditionWindow.g.cs
+F:\Heal\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\XYMovingWindow.g.cs
+F:\Heal\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\UserManagement\LoginWindow.g.cs
+F:\Heal\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\WaitingForm.g.cs
+F:\Heal\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\App.g.cs
+F:\Heal\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\SPI-AOI_Content.g.cs
+F:\Heal\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\GeneratedInternalTypeHelper.g.cs
+F:\Heal\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\SPI-AOI_MarkupCompile.cache
+F:\Heal\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\SPI-AOI_MarkupCompile.lref
+F:\Heal\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\MainWindow.baml
+F:\Heal\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\AutoAdjustWindow.baml
+F:\Heal\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\DashBoard.baml
+F:\Heal\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\FOVCaptureWindow.baml
+F:\Heal\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\HardwareWindow.baml
+F:\Heal\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\NewModel.baml
+F:\Heal\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\SuggestLinkPadWindow.baml
+F:\Heal\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\AvailabilityLayerWindow.baml
+F:\Heal\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\GerberTools.baml
+F:\Heal\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\RotationWindow.baml
+F:\Heal\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\PadconditionWindow.baml
+F:\Heal\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\XYMovingWindow.baml
+F:\Heal\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\Styles\Base.baml
+F:\Heal\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\UserManagement\LoginWindow.baml
+F:\Heal\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\WaitingForm.baml
+F:\Heal\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\SPI-AOI.g.resources
+F:\Heal\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\SPI_AOI.Views.MainConfigWindow.PLCBitconfigForm.resources
+F:\Heal\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Heal.UI.MachineIssueForm.resources
+F:\Heal\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\SPI_AOI.Properties.Resources.resources
+F:\Heal\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\SPI-AOI.csproj.GenerateResource.Cache
+F:\Heal\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\SPI-AOI.exe
+F:\Heal\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\SPI-AOI.pdb
+F:\Heal\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\SPI-AOI.pdb
+D:\Heal\Projects\B06\SPI\Source code\CSharp\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\AutoLinkPadWindow.g.cs
+D:\Heal\Projects\B06\SPI\Source code\CSharp\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\AutoLinkPadWindow.baml
+F:\Heal\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\AutoLinkPadWindow.g.cs
+F:\Heal\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\AutoLinkPadWindow.baml
+F:\Heal\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\SPI-AOI.csprojAssemblyReference.cache
+F:\Heal\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\SPI-AOI.csproj.CopyComplete
+F:\Heal\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\SPI_AOI.Views.MainConfigWindow.IOConfigForm.resources
+F:\Heal\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\SPI_AOI.Views.MainConfigWindow.AlgorithmSettings.resources
+C:\Users\SPI-Machine\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\NLog.config
+C:\Users\SPI-Machine\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\x64\concrt140.dll
+C:\Users\SPI-Machine\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\x64\cvextern.dll
+C:\Users\SPI-Machine\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\x64\msvcp140.dll
+C:\Users\SPI-Machine\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\x64\opencv_videoio_ffmpeg411_64.dll
+C:\Users\SPI-Machine\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\x64\vcruntime140.dll
+C:\Users\SPI-Machine\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\SPI-AOI.exe.config
+C:\Users\SPI-Machine\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\SPI-AOI.exe
+C:\Users\SPI-Machine\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\SPI-AOI.pdb
+C:\Users\SPI-Machine\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\Emgu.CV.UI.dll
+C:\Users\SPI-Machine\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\Emgu.CV.World.dll
+C:\Users\SPI-Machine\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\MvCameraControl.Net.dll
+C:\Users\SPI-Machine\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\Newtonsoft.Json.dll
+C:\Users\SPI-Machine\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\NLog.dll
+C:\Users\SPI-Machine\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\System.Data.SQLite.dll
+C:\Users\SPI-Machine\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\Xceed.Wpf.AvalonDock.dll
+C:\Users\SPI-Machine\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+C:\Users\SPI-Machine\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+C:\Users\SPI-Machine\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+C:\Users\SPI-Machine\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\Xceed.Wpf.Toolkit.dll
+C:\Users\SPI-Machine\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\ZedGraph.dll
+C:\Users\SPI-Machine\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\zxing.dll
+C:\Users\SPI-Machine\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\zxing.presentation.dll
+C:\Users\SPI-Machine\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\Emgu.CV.UI.xml
+C:\Users\SPI-Machine\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\Emgu.CV.World.xml
+C:\Users\SPI-Machine\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\Newtonsoft.Json.xml
+C:\Users\SPI-Machine\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\NLog.xml
+C:\Users\SPI-Machine\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\System.Data.SQLite.xml
+C:\Users\SPI-Machine\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\ZedGraph.xml
+C:\Users\SPI-Machine\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\zxing.xml
+C:\Users\SPI-Machine\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\zxing.presentation.xml
+C:\Users\SPI-Machine\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\cs-CZ\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\SPI-Machine\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\SPI-Machine\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\SPI-Machine\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\SPI-Machine\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\SPI-Machine\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\SPI-Machine\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\SPI-Machine\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\SPI-Machine\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\SPI-Machine\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\SPI-Machine\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\SPI-Machine\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\de\ZedGraph.resources.dll
+C:\Users\SPI-Machine\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\es\ZedGraph.resources.dll
+C:\Users\SPI-Machine\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\fr\ZedGraph.resources.dll
+C:\Users\SPI-Machine\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\hu\ZedGraph.resources.dll
+C:\Users\SPI-Machine\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\it\ZedGraph.resources.dll
+C:\Users\SPI-Machine\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\ja\ZedGraph.resources.dll
+C:\Users\SPI-Machine\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\pt\ZedGraph.resources.dll
+C:\Users\SPI-Machine\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\ru\ZedGraph.resources.dll
+C:\Users\SPI-Machine\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\sk\ZedGraph.resources.dll
+C:\Users\SPI-Machine\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\sv\ZedGraph.resources.dll
+C:\Users\SPI-Machine\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\tr\ZedGraph.resources.dll
+C:\Users\SPI-Machine\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\zh-cn\ZedGraph.resources.dll
+C:\Users\SPI-Machine\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\zh-tw\ZedGraph.resources.dll
+C:\Users\SPI-Machine\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\SPI-AOI.csprojAssemblyReference.cache
+C:\Users\SPI-Machine\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\MainWindow.g.cs
+C:\Users\SPI-Machine\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\AutoAdjustWindow.g.cs
+C:\Users\SPI-Machine\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\AutoLinkPadWindow.g.cs
+C:\Users\SPI-Machine\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\DashBoard.g.cs
+C:\Users\SPI-Machine\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\FOVCaptureWindow.g.cs
+C:\Users\SPI-Machine\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\HardwareWindow.g.cs
+C:\Users\SPI-Machine\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\NewModel.g.cs
+C:\Users\SPI-Machine\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\SuggestLinkPadWindow.g.cs
+C:\Users\SPI-Machine\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\AvailabilityLayerWindow.g.cs
+C:\Users\SPI-Machine\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\GerberTools.g.cs
+C:\Users\SPI-Machine\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\RotationWindow.g.cs
+C:\Users\SPI-Machine\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\PadconditionWindow.g.cs
+C:\Users\SPI-Machine\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\XYMovingWindow.g.cs
+C:\Users\SPI-Machine\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\UserManagement\LoginWindow.g.cs
+C:\Users\SPI-Machine\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\WaitingForm.g.cs
+C:\Users\SPI-Machine\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\App.g.cs
+C:\Users\SPI-Machine\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\SPI-AOI_Content.g.cs
+C:\Users\SPI-Machine\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\SPI-Machine\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\SPI-AOI_MarkupCompile.cache
+C:\Users\SPI-Machine\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\SPI-AOI_MarkupCompile.lref
+C:\Users\SPI-Machine\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\MainWindow.baml
+C:\Users\SPI-Machine\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\AutoAdjustWindow.baml
+C:\Users\SPI-Machine\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\AutoLinkPadWindow.baml
+C:\Users\SPI-Machine\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\DashBoard.baml
+C:\Users\SPI-Machine\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\FOVCaptureWindow.baml
+C:\Users\SPI-Machine\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\HardwareWindow.baml
+C:\Users\SPI-Machine\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\NewModel.baml
+C:\Users\SPI-Machine\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\SuggestLinkPadWindow.baml
+C:\Users\SPI-Machine\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\AvailabilityLayerWindow.baml
+C:\Users\SPI-Machine\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\GerberTools.baml
+C:\Users\SPI-Machine\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\RotationWindow.baml
+C:\Users\SPI-Machine\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\PadconditionWindow.baml
+C:\Users\SPI-Machine\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\XYMovingWindow.baml
+C:\Users\SPI-Machine\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\Styles\Base.baml
+C:\Users\SPI-Machine\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\UserManagement\LoginWindow.baml
+C:\Users\SPI-Machine\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\WaitingForm.baml
+C:\Users\SPI-Machine\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\SPI-AOI.g.resources
+C:\Users\SPI-Machine\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\SPI_AOI.Views.MainConfigWindow.AlgorithmSettings.resources
+C:\Users\SPI-Machine\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\SPI_AOI.Views.MainConfigWindow.IOConfigForm.resources
+C:\Users\SPI-Machine\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\SPI_AOI.Views.MainConfigWindow.PLCBitconfigForm.resources
+C:\Users\SPI-Machine\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Heal.UI.MachineIssueForm.resources
+C:\Users\SPI-Machine\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\SPI_AOI.Properties.Resources.resources
+C:\Users\SPI-Machine\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\SPI-AOI.csproj.GenerateResource.cache
+C:\Users\SPI-Machine\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\SPI-AOI.csproj.CopyComplete
+C:\Users\SPI-Machine\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\SPI-AOI.exe
+C:\Users\SPI-Machine\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\SPI-AOI.pdb
+D:\Heal\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\GerberLibrary.dll
+D:\Heal\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\zxing.dll
+D:\Heal\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\zxing.presentation.dll
+D:\Heal\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\zxing.xml
+D:\Heal\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\zxing.presentation.xml
+D:\Heal\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\SPI-AOI.csprojAssemblyReference.cache
+D:\Heal\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\AutoLinkPadWindow.g.cs
+D:\Heal\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\AutoLinkPadWindow.baml
+D:\Heal\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\SPI_AOI.Views.MainConfigWindow.AlgorithmSettings.resources
+D:\Heal\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\SPI_AOI.Views.MainConfigWindow.IOConfigForm.resources
+D:\Heal\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\SPI_AOI.Views.MainConfigWindow.PLCBitconfigForm.resources
+D:\Heal\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Heal.UI.MachineIssueForm.resources
+D:\Heal\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\SPI-AOI.csproj.CopyComplete
+C:\Users\Public\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\NLog.config
+C:\Users\Public\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\x64\concrt140.dll
+C:\Users\Public\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\x64\cvextern.dll
+C:\Users\Public\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\x64\msvcp140.dll
+C:\Users\Public\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\x64\opencv_videoio_ffmpeg411_64.dll
+C:\Users\Public\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\x64\vcruntime140.dll
+C:\Users\Public\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\SPI-AOI.exe.config
+C:\Users\Public\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\SPI-AOI.exe
+C:\Users\Public\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\SPI-AOI.pdb
+C:\Users\Public\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\Emgu.CV.UI.dll
+C:\Users\Public\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\Emgu.CV.World.dll
+C:\Users\Public\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\MvCameraControl.Net.dll
+C:\Users\Public\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\Newtonsoft.Json.dll
+C:\Users\Public\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\NLog.dll
+C:\Users\Public\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\System.Data.SQLite.dll
+C:\Users\Public\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\Xceed.Wpf.AvalonDock.dll
+C:\Users\Public\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+C:\Users\Public\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+C:\Users\Public\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+C:\Users\Public\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\Xceed.Wpf.Toolkit.dll
+C:\Users\Public\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\ZedGraph.dll
+C:\Users\Public\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\zxing.dll
+C:\Users\Public\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\zxing.presentation.dll
+C:\Users\Public\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\Emgu.CV.UI.xml
+C:\Users\Public\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\Emgu.CV.World.xml
+C:\Users\Public\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\Newtonsoft.Json.xml
+C:\Users\Public\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\NLog.xml
+C:\Users\Public\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\System.Data.SQLite.xml
+C:\Users\Public\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\ZedGraph.xml
+C:\Users\Public\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\zxing.xml
+C:\Users\Public\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\zxing.presentation.xml
+C:\Users\Public\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\cs-CZ\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Public\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Public\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Public\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Public\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Public\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Public\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Public\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Public\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Public\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Public\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Public\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\de\ZedGraph.resources.dll
+C:\Users\Public\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\es\ZedGraph.resources.dll
+C:\Users\Public\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\fr\ZedGraph.resources.dll
+C:\Users\Public\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\hu\ZedGraph.resources.dll
+C:\Users\Public\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\it\ZedGraph.resources.dll
+C:\Users\Public\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\ja\ZedGraph.resources.dll
+C:\Users\Public\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\pt\ZedGraph.resources.dll
+C:\Users\Public\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\ru\ZedGraph.resources.dll
+C:\Users\Public\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\sk\ZedGraph.resources.dll
+C:\Users\Public\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\sv\ZedGraph.resources.dll
+C:\Users\Public\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\tr\ZedGraph.resources.dll
+C:\Users\Public\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\zh-cn\ZedGraph.resources.dll
+C:\Users\Public\Projects\SPI-AOI\SPI-AOI\bin\x64\Debug\zh-tw\ZedGraph.resources.dll
+C:\Users\Public\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\MainWindow.g.cs
+C:\Users\Public\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\AutoAdjustWindow.g.cs
+C:\Users\Public\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\AutoLinkPadWindow.g.cs
+C:\Users\Public\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\DashBoard.g.cs
+C:\Users\Public\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\FOVCaptureWindow.g.cs
+C:\Users\Public\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\HardwareWindow.g.cs
+C:\Users\Public\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\NewModel.g.cs
+C:\Users\Public\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\SuggestLinkPadWindow.g.cs
+C:\Users\Public\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\AvailabilityLayerWindow.g.cs
+C:\Users\Public\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\GerberTools.g.cs
+C:\Users\Public\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\RotationWindow.g.cs
+C:\Users\Public\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\PadconditionWindow.g.cs
+C:\Users\Public\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\XYMovingWindow.g.cs
+C:\Users\Public\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\UserManagement\LoginWindow.g.cs
+C:\Users\Public\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\WaitingForm.g.cs
+C:\Users\Public\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\App.g.cs
+C:\Users\Public\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\SPI-AOI_Content.g.cs
+C:\Users\Public\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Public\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\SPI-AOI_MarkupCompile.cache
+C:\Users\Public\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\SPI-AOI_MarkupCompile.lref
+C:\Users\Public\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\MainWindow.baml
+C:\Users\Public\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\AutoAdjustWindow.baml
+C:\Users\Public\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\AutoLinkPadWindow.baml
+C:\Users\Public\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\DashBoard.baml
+C:\Users\Public\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\FOVCaptureWindow.baml
+C:\Users\Public\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\HardwareWindow.baml
+C:\Users\Public\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\NewModel.baml
+C:\Users\Public\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\SuggestLinkPadWindow.baml
+C:\Users\Public\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\AvailabilityLayerWindow.baml
+C:\Users\Public\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\GerberTools.baml
+C:\Users\Public\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\RotationWindow.baml
+C:\Users\Public\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\PadconditionWindow.baml
+C:\Users\Public\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\XYMovingWindow.baml
+C:\Users\Public\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\Styles\Base.baml
+C:\Users\Public\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\UserManagement\LoginWindow.baml
+C:\Users\Public\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\WaitingForm.baml
+C:\Users\Public\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\SPI-AOI.g.resources
+C:\Users\Public\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\SPI_AOI.Views.MainConfigWindow.AlgorithmSettings.resources
+C:\Users\Public\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\SPI_AOI.Views.MainConfigWindow.IOConfigForm.resources
+C:\Users\Public\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\SPI_AOI.Views.MainConfigWindow.PLCBitconfigForm.resources
+C:\Users\Public\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Heal.UI.MachineIssueForm.resources
+C:\Users\Public\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\SPI_AOI.Properties.Resources.resources
+C:\Users\Public\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\SPI-AOI.csproj.GenerateResource.cache
+C:\Users\Public\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\SPI-AOI.csproj.CopyComplete
+C:\Users\Public\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\SPI-AOI.exe
+C:\Users\Public\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\SPI-AOI.pdb
+D:\Heal\Projects\B06\SPI\Source code\CSharp\SPI-AOI\SPI-AOI\obj\x64\Debug\SPI_AOI.Views.MainConfigWindow.AlgorithmSettings.resources
+D:\Heal\Projects\B06\SPI\Source code\CSharp\SPI-AOI\SPI-AOI\obj\x64\Debug\SPI_AOI.Views.MainConfigWindow.IOConfigForm.resources
+D:\Heal\Projects\B06\SPI\Source code\CSharp\SPI-AOI\SPI-AOI\obj\x64\Debug\SPI_AOI.Views.MainConfigWindow.LightCtlForm.resources
+D:\Heal\Projects\B06\SPI\Source code\CSharp\SPI-AOI\SPI-AOI\obj\x64\Debug\SPI_AOI.Views.ModelManagement.HSVSelectionForm.resources
+D:\Heal\Projects\B06\SPI\Source code\CSharp\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\AutoAdjustFOVWindow.g.cs
+D:\Heal\Projects\B06\SPI\Source code\CSharp\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\AutoAdjustFOVWindow.baml
+C:\Users\Public\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\AutoAdjustFOVWindow.g.cs
+C:\Users\Public\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\Views\ModelManagement\AutoAdjustFOVWindow.baml
+C:\Users\Public\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\SPI_AOI.Views.ModelManagement.HSVSelectionForm.resources
+C:\Users\Public\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\SPI_AOI.Views.MainConfigWindow.LightCtlForm.resources
+D:\Heal\Projects\B06\SPI\Source code\CSharp\SPI-AOI\SPI-AOI\bin\x64\Debug\xNet.dll
+C:\Users\Public\Projects\SPI-AOI\SPI-AOI\obj\x64\Debug\SPI-AOI.csprojAssemblyReference.cache
+D:\MyProject\SPI_Machine\spi_aoi\SPI-AOI\bin\x64\Debug\NLog.config
+D:\MyProject\SPI_Machine\spi_aoi\SPI-AOI\bin\x64\Debug\x64\concrt140.dll
+D:\MyProject\SPI_Machine\spi_aoi\SPI-AOI\bin\x64\Debug\x64\cvextern.dll
+D:\MyProject\SPI_Machine\spi_aoi\SPI-AOI\bin\x64\Debug\x64\msvcp140.dll
+D:\MyProject\SPI_Machine\spi_aoi\SPI-AOI\bin\x64\Debug\x64\opencv_videoio_ffmpeg411_64.dll
+D:\MyProject\SPI_Machine\spi_aoi\SPI-AOI\bin\x64\Debug\x64\vcruntime140.dll
+D:\MyProject\SPI_Machine\spi_aoi\SPI-AOI\bin\x64\Debug\SPI-AOI.exe.config
+D:\MyProject\SPI_Machine\spi_aoi\SPI-AOI\bin\x64\Debug\SPI-AOI.exe
+D:\MyProject\SPI_Machine\spi_aoi\SPI-AOI\bin\x64\Debug\SPI-AOI.pdb
+D:\MyProject\SPI_Machine\spi_aoi\SPI-AOI\bin\x64\Debug\Emgu.CV.UI.dll
+D:\MyProject\SPI_Machine\spi_aoi\SPI-AOI\bin\x64\Debug\Emgu.CV.World.dll
+D:\MyProject\SPI_Machine\spi_aoi\SPI-AOI\bin\x64\Debug\MvCameraControl.Net.dll
+D:\MyProject\SPI_Machine\spi_aoi\SPI-AOI\bin\x64\Debug\Newtonsoft.Json.dll
+D:\MyProject\SPI_Machine\spi_aoi\SPI-AOI\bin\x64\Debug\NLog.dll
+D:\MyProject\SPI_Machine\spi_aoi\SPI-AOI\bin\x64\Debug\System.Data.SQLite.dll
+D:\MyProject\SPI_Machine\spi_aoi\SPI-AOI\bin\x64\Debug\Xceed.Wpf.AvalonDock.dll
+D:\MyProject\SPI_Machine\spi_aoi\SPI-AOI\bin\x64\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+D:\MyProject\SPI_Machine\spi_aoi\SPI-AOI\bin\x64\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+D:\MyProject\SPI_Machine\spi_aoi\SPI-AOI\bin\x64\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+D:\MyProject\SPI_Machine\spi_aoi\SPI-AOI\bin\x64\Debug\Xceed.Wpf.Toolkit.dll
+D:\MyProject\SPI_Machine\spi_aoi\SPI-AOI\bin\x64\Debug\ZedGraph.dll
+D:\MyProject\SPI_Machine\spi_aoi\SPI-AOI\bin\x64\Debug\zxing.dll
+D:\MyProject\SPI_Machine\spi_aoi\SPI-AOI\bin\x64\Debug\zxing.presentation.dll
+D:\MyProject\SPI_Machine\spi_aoi\SPI-AOI\bin\x64\Debug\Emgu.CV.UI.xml
+D:\MyProject\SPI_Machine\spi_aoi\SPI-AOI\bin\x64\Debug\Emgu.CV.World.xml
+D:\MyProject\SPI_Machine\spi_aoi\SPI-AOI\bin\x64\Debug\MvCameraControl.Net.xml
+D:\MyProject\SPI_Machine\spi_aoi\SPI-AOI\bin\x64\Debug\Newtonsoft.Json.xml
+D:\MyProject\SPI_Machine\spi_aoi\SPI-AOI\bin\x64\Debug\NLog.xml
+D:\MyProject\SPI_Machine\spi_aoi\SPI-AOI\bin\x64\Debug\System.Data.SQLite.xml
+D:\MyProject\SPI_Machine\spi_aoi\SPI-AOI\bin\x64\Debug\ZedGraph.xml
+D:\MyProject\SPI_Machine\spi_aoi\SPI-AOI\bin\x64\Debug\zxing.xml
+D:\MyProject\SPI_Machine\spi_aoi\SPI-AOI\bin\x64\Debug\zxing.presentation.xml
+D:\MyProject\SPI_Machine\spi_aoi\SPI-AOI\bin\x64\Debug\cs-CZ\Xceed.Wpf.AvalonDock.resources.dll
+D:\MyProject\SPI_Machine\spi_aoi\SPI-AOI\bin\x64\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+D:\MyProject\SPI_Machine\spi_aoi\SPI-AOI\bin\x64\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+D:\MyProject\SPI_Machine\spi_aoi\SPI-AOI\bin\x64\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+D:\MyProject\SPI_Machine\spi_aoi\SPI-AOI\bin\x64\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+D:\MyProject\SPI_Machine\spi_aoi\SPI-AOI\bin\x64\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+D:\MyProject\SPI_Machine\spi_aoi\SPI-AOI\bin\x64\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+D:\MyProject\SPI_Machine\spi_aoi\SPI-AOI\bin\x64\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+D:\MyProject\SPI_Machine\spi_aoi\SPI-AOI\bin\x64\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+D:\MyProject\SPI_Machine\spi_aoi\SPI-AOI\bin\x64\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+D:\MyProject\SPI_Machine\spi_aoi\SPI-AOI\bin\x64\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+D:\MyProject\SPI_Machine\spi_aoi\SPI-AOI\bin\x64\Debug\de\ZedGraph.resources.dll
+D:\MyProject\SPI_Machine\spi_aoi\SPI-AOI\bin\x64\Debug\es\ZedGraph.resources.dll
+D:\MyProject\SPI_Machine\spi_aoi\SPI-AOI\bin\x64\Debug\fr\ZedGraph.resources.dll
+D:\MyProject\SPI_Machine\spi_aoi\SPI-AOI\bin\x64\Debug\hu\ZedGraph.resources.dll
+D:\MyProject\SPI_Machine\spi_aoi\SPI-AOI\bin\x64\Debug\it\ZedGraph.resources.dll
+D:\MyProject\SPI_Machine\spi_aoi\SPI-AOI\bin\x64\Debug\ja\ZedGraph.resources.dll
+D:\MyProject\SPI_Machine\spi_aoi\SPI-AOI\bin\x64\Debug\pt\ZedGraph.resources.dll
+D:\MyProject\SPI_Machine\spi_aoi\SPI-AOI\bin\x64\Debug\ru\ZedGraph.resources.dll
+D:\MyProject\SPI_Machine\spi_aoi\SPI-AOI\bin\x64\Debug\sk\ZedGraph.resources.dll
+D:\MyProject\SPI_Machine\spi_aoi\SPI-AOI\bin\x64\Debug\sv\ZedGraph.resources.dll
+D:\MyProject\SPI_Machine\spi_aoi\SPI-AOI\bin\x64\Debug\tr\ZedGraph.resources.dll
+D:\MyProject\SPI_Machine\spi_aoi\SPI-AOI\bin\x64\Debug\zh-cn\ZedGraph.resources.dll
+D:\MyProject\SPI_Machine\spi_aoi\SPI-AOI\bin\x64\Debug\zh-tw\ZedGraph.resources.dll
+D:\MyProject\SPI_Machine\spi_aoi\SPI-AOI\obj\x64\Debug\SPI-AOI.csprojAssemblyReference.cache
+D:\MyProject\SPI_Machine\spi_aoi\SPI-AOI\obj\x64\Debug\Views\MainWindow.g.cs
+D:\MyProject\SPI_Machine\spi_aoi\SPI-AOI\obj\x64\Debug\Views\ModelManagement\AutoAdjustFOVWindow.g.cs
+D:\MyProject\SPI_Machine\spi_aoi\SPI-AOI\obj\x64\Debug\Views\ModelManagement\AutoAdjustWindow.g.cs
+D:\MyProject\SPI_Machine\spi_aoi\SPI-AOI\obj\x64\Debug\Views\ModelManagement\AutoLinkPadWindow.g.cs
+D:\MyProject\SPI_Machine\spi_aoi\SPI-AOI\obj\x64\Debug\Views\ModelManagement\DashBoard.g.cs
+D:\MyProject\SPI_Machine\spi_aoi\SPI-AOI\obj\x64\Debug\Views\ModelManagement\FOVCaptureWindow.g.cs
+D:\MyProject\SPI_Machine\spi_aoi\SPI-AOI\obj\x64\Debug\Views\ModelManagement\HardwareWindow.g.cs
+D:\MyProject\SPI_Machine\spi_aoi\SPI-AOI\obj\x64\Debug\Views\ModelManagement\NewModel.g.cs
+D:\MyProject\SPI_Machine\spi_aoi\SPI-AOI\obj\x64\Debug\Views\ModelManagement\SuggestLinkPadWindow.g.cs
+D:\MyProject\SPI_Machine\spi_aoi\SPI-AOI\obj\x64\Debug\Views\ModelManagement\AvailabilityLayerWindow.g.cs
+D:\MyProject\SPI_Machine\spi_aoi\SPI-AOI\obj\x64\Debug\Views\ModelManagement\GerberTools.g.cs
+D:\MyProject\SPI_Machine\spi_aoi\SPI-AOI\obj\x64\Debug\Views\ModelManagement\RotationWindow.g.cs
+D:\MyProject\SPI_Machine\spi_aoi\SPI-AOI\obj\x64\Debug\Views\ModelManagement\PadconditionWindow.g.cs
+D:\MyProject\SPI_Machine\spi_aoi\SPI-AOI\obj\x64\Debug\Views\ModelManagement\XYMovingWindow.g.cs
+D:\MyProject\SPI_Machine\spi_aoi\SPI-AOI\obj\x64\Debug\Views\UserManagement\LoginWindow.g.cs
+D:\MyProject\SPI_Machine\spi_aoi\SPI-AOI\obj\x64\Debug\Views\WaitingForm.g.cs
+D:\MyProject\SPI_Machine\spi_aoi\SPI-AOI\obj\x64\Debug\App.g.cs
+D:\MyProject\SPI_Machine\spi_aoi\SPI-AOI\obj\x64\Debug\SPI-AOI_Content.g.cs
+D:\MyProject\SPI_Machine\spi_aoi\SPI-AOI\obj\x64\Debug\GeneratedInternalTypeHelper.g.cs
+D:\MyProject\SPI_Machine\spi_aoi\SPI-AOI\obj\x64\Debug\SPI-AOI_MarkupCompile.cache
+D:\MyProject\SPI_Machine\spi_aoi\SPI-AOI\obj\x64\Debug\SPI-AOI_MarkupCompile.lref
+D:\MyProject\SPI_Machine\spi_aoi\SPI-AOI\obj\x64\Debug\Views\MainWindow.baml
+D:\MyProject\SPI_Machine\spi_aoi\SPI-AOI\obj\x64\Debug\Views\ModelManagement\AutoAdjustFOVWindow.baml
+D:\MyProject\SPI_Machine\spi_aoi\SPI-AOI\obj\x64\Debug\Views\ModelManagement\AutoAdjustWindow.baml
+D:\MyProject\SPI_Machine\spi_aoi\SPI-AOI\obj\x64\Debug\Views\ModelManagement\AutoLinkPadWindow.baml
+D:\MyProject\SPI_Machine\spi_aoi\SPI-AOI\obj\x64\Debug\Views\ModelManagement\DashBoard.baml
+D:\MyProject\SPI_Machine\spi_aoi\SPI-AOI\obj\x64\Debug\Views\ModelManagement\FOVCaptureWindow.baml
+D:\MyProject\SPI_Machine\spi_aoi\SPI-AOI\obj\x64\Debug\Views\ModelManagement\HardwareWindow.baml
+D:\MyProject\SPI_Machine\spi_aoi\SPI-AOI\obj\x64\Debug\Views\ModelManagement\NewModel.baml
+D:\MyProject\SPI_Machine\spi_aoi\SPI-AOI\obj\x64\Debug\Views\ModelManagement\SuggestLinkPadWindow.baml
+D:\MyProject\SPI_Machine\spi_aoi\SPI-AOI\obj\x64\Debug\Views\ModelManagement\AvailabilityLayerWindow.baml
+D:\MyProject\SPI_Machine\spi_aoi\SPI-AOI\obj\x64\Debug\Views\ModelManagement\GerberTools.baml
+D:\MyProject\SPI_Machine\spi_aoi\SPI-AOI\obj\x64\Debug\Views\ModelManagement\RotationWindow.baml
+D:\MyProject\SPI_Machine\spi_aoi\SPI-AOI\obj\x64\Debug\Views\ModelManagement\PadconditionWindow.baml
+D:\MyProject\SPI_Machine\spi_aoi\SPI-AOI\obj\x64\Debug\Views\ModelManagement\XYMovingWindow.baml
+D:\MyProject\SPI_Machine\spi_aoi\SPI-AOI\obj\x64\Debug\Views\Styles\Base.baml
+D:\MyProject\SPI_Machine\spi_aoi\SPI-AOI\obj\x64\Debug\Views\UserManagement\LoginWindow.baml
+D:\MyProject\SPI_Machine\spi_aoi\SPI-AOI\obj\x64\Debug\Views\WaitingForm.baml
+D:\MyProject\SPI_Machine\spi_aoi\SPI-AOI\obj\x64\Debug\SPI-AOI.g.resources
+D:\MyProject\SPI_Machine\spi_aoi\SPI-AOI\obj\x64\Debug\SPI_AOI.Views.ModelManagement.HSVSelectionForm.resources
+D:\MyProject\SPI_Machine\spi_aoi\SPI-AOI\obj\x64\Debug\SPI_AOI.Views.MainConfigWindow.AlgorithmSettings.resources
+D:\MyProject\SPI_Machine\spi_aoi\SPI-AOI\obj\x64\Debug\SPI_AOI.Views.MainConfigWindow.IOConfigForm.resources
+D:\MyProject\SPI_Machine\spi_aoi\SPI-AOI\obj\x64\Debug\SPI_AOI.Views.MainConfigWindow.LightCtlForm.resources
+D:\MyProject\SPI_Machine\spi_aoi\SPI-AOI\obj\x64\Debug\SPI_AOI.Views.MainConfigWindow.PLCBitconfigForm.resources
+D:\MyProject\SPI_Machine\spi_aoi\SPI-AOI\obj\x64\Debug\Heal.UI.MachineIssueForm.resources
+D:\MyProject\SPI_Machine\spi_aoi\SPI-AOI\obj\x64\Debug\SPI_AOI.Properties.Resources.resources
+D:\MyProject\SPI_Machine\spi_aoi\SPI-AOI\obj\x64\Debug\SPI-AOI.csproj.GenerateResource.cache
+D:\MyProject\SPI_Machine\spi_aoi\SPI-AOI\obj\x64\Debug\SPI-AOI.csproj.CopyComplete
+D:\MyProject\SPI_Machine\spi_aoi\SPI-AOI\obj\x64\Debug\SPI-AOI.exe
+D:\MyProject\SPI_Machine\spi_aoi\SPI-AOI\obj\x64\Debug\SPI-AOI.pdb
