@@ -23,18 +23,6 @@ namespace SPI_AOI.Views.MainConfigWindow
         private void LoadUI()
         {
             string[] ports = SerialPort.GetPortNames();
-            cbLightPort.Items.Clear();
-            cbScanner.Items.Clear();
-            cbLightPort.Items.AddRange(ports);
-            cbScanner.Items.AddRange(ports);
-            if(ports.Contains(mParam.LIGHT_COM))
-            {
-                cbLightPort.SelectedItem = mParam.LIGHT_COM;
-            }
-            if (ports.Contains(mParam.SCANER_COM))
-            {
-                cbScanner.SelectedItem = mParam.SCANER_COM;
-            }
             txtCameraMatrix.Text = mParam.CAMERA_MATRIX_FILE;
             txtCameraDistcoeffs.Text = mParam.CAMERA_DISTCOEFFS_FILE;
             nFOVW.Value = mParam.IMAGE_SIZE.Width;
@@ -81,10 +69,7 @@ namespace SPI_AOI.Views.MainConfigWindow
             if (!mLoaded)
                 return;
             ComboBox cb = sender as ComboBox;
-            if(cb.SelectedIndex >= 0)
-            {
-                mParam.LIGHT_COM = cb.SelectedItem.ToString();
-            }
+
             mParam.Save();
         }
 

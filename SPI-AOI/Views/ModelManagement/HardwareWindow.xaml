@@ -30,35 +30,17 @@
                 <Grid Grid.Row="1" Margin="0,10,0,0">
                     <Grid x:Name="grSettings">
                         <Grid.RowDefinitions>
-                            <RowDefinition Height="150"/>
+                            <RowDefinition Height="300"/>
                             <RowDefinition/>
-                        </Grid.RowDefinitions> 
+                        </Grid.RowDefinitions>
                         <Grid Grid.Row="0">
                             <GroupBox  Header="Move XY Axis:">
                                 <Canvas>
-                                    <RadioButton x:Name="rbConveyor" 
-                                                 Content="Conveyor"  
-                                                 IsChecked="True"
-                                                  Canvas.Top="20" Canvas.Left="15" 
-                                                 FontSize="15" Checked="rbConveyor_Checked">
-
-                                    </RadioButton>
-                                    <RadioButton x:Name="rbTopAxis" 
-                                                 Content="Top Axis"
-                                                Canvas.Top="45" Canvas.Left="15"
-                                                 FontSize="15" Checked="rbTopAxis_Checked">
-                                        
-                                    </RadioButton>
-                                    <RadioButton x:Name="rbBotAxis" Content="Bot Axis"
-                                                  Canvas.Top="70" Canvas.Left="15"
-                                                 FontSize="15" Checked="rbBotAxis_Checked">
-
-                                    </RadioButton>
                                     <Button x:Name="btUp" BorderBrush="Transparent"
                                             Background="Transparent" Width="35"
                                             Height="35" 
                                             Canvas.Top="25"
-                                            Canvas.Left="140"
+                                            Canvas.Left="100"
                                             ToolTip="Axis go up" 
                                             PreviewMouseDown="btUp_MouseDown" 
                                             PreviewMouseUp="btUp_MouseUp">
@@ -68,9 +50,8 @@
                                             Background="Transparent" Width="35"
                                             Height="35" 
                                             Canvas.Top="55" 
-                                            Canvas.Left="110"
+                                            Canvas.Left="70"
                                             ToolTip="Axis go left" 
-                                            Visibility="Hidden"
                                             PreviewMouseDown="btLeft_MouseDown"
                                             PreviewMouseUp="btLeft_MouseUp">
                                         <Image 
@@ -80,8 +61,7 @@
                                              Background="Transparent" Width="35" 
                                              Height="35" 
                                              Canvas.Top="55" 
-                                             Canvas.Left="170"
-                                             Visibility="Hidden"
+                                             Canvas.Left="130"
                                                 ToolTip="Axis go right" 
                                              PreviewMouseDown="btRight_MouseDown" 
                                              PreviewMouseUp="btRight_MouseUp">
@@ -92,84 +72,104 @@
                                              Background="Transparent" 
                                              Width="35" Height="35" 
                                              Canvas.Top="85" 
-                                             Canvas.Left="140"
+                                             Canvas.Left="100"
                                              ToolTip="Axis go down" 
                                              PreviewMouseDown="btDown_MouseDown" 
                                              PreviewMouseUp="btDown_MouseUp">
                                         <Image Source="../../Resources/Icons/arrow-down.png"></Image>
                                     </Button>
+
                                     <Label Content="Speed:"  
                                            Canvas.Top="5" 
-                                           Canvas.Right="60"></Label>
-                                    <Slider x:Name="slSpeed" Minimum="50" Maximum="3050" 
+                                           Canvas.Right="60" Canvas.Left="209"></Label>
+
+                                    <Slider x:Name="slSpeed" Minimum="50" Maximum="300000" 
                                             TickPlacement="BottomRight" 
                                             TickFrequency="150" 
                                             IsSnapToTickEnabled="True"
                                             Value="2000" Width="100" 
                                             Canvas.Top="40"
                                              Canvas.Right="10"
-                                            ValueChanged="slSpeed_ValueChanged"
+                                            ValueChanged="slSpeed_ValueChanged" Canvas.Left="205"
                                            >
                                     </Slider>
+                                    <StackPanel Orientation="Horizontal" Canvas.Left="9" Canvas.Top="125">
+
+                                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Left"
+                                                Canvas.Top="150" Margin="10">
+                                            <Label Content="ID"  Width="28" Height="25"
+                                           Canvas.Top="144" 
+                                           Canvas.Right="280" Canvas.Left="26" RenderTransformOrigin="0.5,0.04"></Label>
+
+                                            <TextBox x:Name="tbId" Width="50" Height="25"
+                                             Canvas.Top="142"
+                                             Canvas.Left="53"
+                                             Text="" TextChanged="tbId_TextChanged"></TextBox>
+                                        </StackPanel>
+                                        <StackPanel Orientation="Horizontal"
+                                                >
+                                            <Label Content="X:"  Width="28" Height="25"
+                                           RenderTransformOrigin="0.5,0.04"/>
+                                            <TextBox x:Name="tbX" Width="50" Height="25"
+                                             Text=""/>
+                                        </StackPanel>
+                                        <StackPanel Orientation="Horizontal" Margin="10">
+                                            <Label Content="Y:" Width="28" Height="25"></Label>
+                                            <TextBox x:Name="tbY" HorizontalAlignment="Left" 
+                                                     Height="25" Width="50"></TextBox>
+                                        </StackPanel>
+                                    </StackPanel>
+
                                     <Button x:Name="btGoXYZ" Width="80" Content="Go XYZ"
                                             Click="btGoXYZ_Click"
-                                            Height="20" Canvas.Top="70" Canvas.Right="10"></Button>
+                                            Height="20" Canvas.Top="70" Canvas.Right="10" Canvas.Left="197"></Button>
                                     <Button x:Name="btLoad" Width="50" Content="Load"
                                             Click="btLoad_Click"
-                                            Height="20" Canvas.Top="95" Canvas.Right="65"></Button>
+                                            Height="20" Canvas.Top="100" Canvas.Right="65" Canvas.Left="196"></Button>
                                     <Button x:Name="btUnload" Width="50" Content="Unload"
                                             Click="btUnload_Click"
-                                            Height="20" Canvas.Top="95" Canvas.Right="10"></Button>
+                                            Height="20" Canvas.Top="100" Canvas.Right="10" Canvas.Left="264"></Button>
+
+                                    <StackPanel Orientation="Vertical"
+                                                Canvas.Top="170" Margin="10,0,0,0">
+                                        <Label Content="Cur Panel:"></Label>
+                                        <StackPanel Orientation="Horizontal"
+                                                Canvas.Top="168" Canvas.Left="14"  >
+                                            <Button x:Name="btNext" HorizontalAlignment="Left" Width="30" Height="25"
+                                                Margin="10,0,0,0" Content="Next" Click="btNext_Click" />
+                                            <Button x:Name="btBack" HorizontalAlignment="Left" Width="30" Height="25"
+                                                Margin="10,0,0,0" Content="Back" Click="btBack_Click"/>
+                                            <Button x:Name="btnCloseDoor" HorizontalAlignment="Left"
+                                                Width="50" Height="25" Content="Door" 
+                                                Margin="10,0,0,0" Click="btnCloseDoor_Click"></Button>
+                                            <Button x:Name="btCylinder" HorizontalAlignment="Left"
+                                                Width="50" Height="25" Content="CyKeep" 
+                                                Margin="10,0,0,0"></Button>
+                                            <Button x:Name="btRun" HorizontalAlignment="Left"
+                                                Width="50" Height="25" Content="Run" 
+                                                Margin="10,0,0,0" Click="btRun_Click"></Button>
+                                        </StackPanel>
+
+                                        <StackPanel Orientation="Horizontal"
+                                                Canvas.Top="168" Canvas.Left="14" Margin="10" >
+                                            <Label Content="X:"></Label>
+                                            <TextBox x:Name="tbCurX" Width="60" Margin="10,0,0,0"></TextBox>
+                                            <Label Content="Y:"></Label>
+                                            <TextBox x:Name="tbCurY" Width="60" Margin="10,0,0,0"></TextBox>
+                                            <Button x:Name="btSave" HorizontalAlignment="Left" Width="30" Height="25"
+                                                Margin="10,0" Content="Save" Click="btSave_Click" />
+
+                                        </StackPanel>
+                                    </StackPanel>
                                 </Canvas>
                             </GroupBox>
 
                         </Grid>
                         <Grid Grid.Row="1">
                             <DockPanel>
-                                <GroupBox  Header="Parameter &amp; Teach template">
+                                <GroupBox  Header="Parameter &amp; Teach template" Margin="0,0,0,0" Width="344">
                                     <StackPanel Margin="5,15,0,0" HorizontalAlignment="Left">
-                                        <StackPanel>
-                                            <Label Content="Scan Position:" FontSize="18" FontWeight="Bold"></Label>
-                                        </StackPanel>
-                                        <StackPanel Orientation="Horizontal">
-                                            <Label Content="P.ID:"></Label>
-                                            <ComboBox x:Name="cbScanPointID" Width="80"
-                                                      SelectionChanged="cbScanPointID_SelectionChanged"></ComboBox>
-                                            <Button x:Name="btAddScan" Width="80" Content="Add" Margin="10,0,0,0
-                                                    " Click="btAddScan_Click"></Button>
-                                            <Button x:Name="btDelScan" Width="80" Content="Delete" Margin="10,0,0,0
-                                                    " Click="btDelScan_Click"></Button>
-                                        </StackPanel>
-                                        <StackPanel Orientation="Horizontal" Margin="0,10,0,0">
-                                            <Label Content="Width:"></Label>
-                                            <WindowsFormsHost Width="60" Height="20" Margin="5,0,0,5" Background="#FFFFFFFF">
-                                                <wf:NumericUpDown x:Name="nScanWidth" Width="60" 
-                                                                          ValueChanged="nScanWidth_ValueChanged"
-                                                                          Minimum="0"
-                                                                          Maximum="17"
-                                                                          DecimalPlaces="1"
-                                                                          Increment="0.1"
-                                                                          TextAlign="Right"
-                                                                          ></wf:NumericUpDown>
-                                            </WindowsFormsHost>
-                                            <Label Content="mm"></Label>
-                                            <Label Content="Height:" Margin="10,0,0,0"></Label>
-                                            <WindowsFormsHost Width="60" Height="20" Margin="5,0,0,5" Background="#FFFFFFFF">
-                                                <wf:NumericUpDown x:Name="nScanHeight" Width="60" 
-                                                                          ValueChanged="nScanHeight_ValueChanged"
-                                                                          Minimum="0"
-                                                                          Maximum="17"
-                                                                          DecimalPlaces="1"
-                                                                          Increment="0.1"
-                                                                          TextAlign="Right"
-                                                                          ></wf:NumericUpDown>
-                                            </WindowsFormsHost>
-                                            <Label Content="mm"></Label>
-                                        </StackPanel>
-                                        <StackPanel Orientation="Horizontal" Margin="0,10,0,0">
-                                            <Label Content="Code:"></Label>
-                                            <TextBox x:Name="txtCodeScan" Width="255"></TextBox>
-                                        </StackPanel>
+                                        <StackPanel/>
                                         <StackPanel Margin="0,15,0,0">
                                             <Label Content="Camera Parameter:" FontSize="18" FontWeight="Bold"></Label>
                                         </StackPanel>
@@ -206,54 +206,6 @@
                                                                           ></wf:NumericUpDown>
                                                     </WindowsFormsHost>
                                                     <Label Content="dB"></Label>
-                                                </StackPanel>
-                                            </StackPanel>
-                                        </StackPanel>
-
-                                        <StackPanel Orientation="Horizontal">
-                                            <StackPanel Margin="0,0,0,0">
-                                                <StackPanel Orientation="Horizontal">
-                                                    <Label  Content="Light Intensity:" Margin="5,0,0,0"></Label>
-                                                </StackPanel>
-                                                <StackPanel Orientation="Horizontal">
-                                                    <WindowsFormsHost Width="50" Height="20" Margin="10,0,0,5" Background="#FFFFFFFF">
-                                                        <wf:NumericUpDown x:Name="nLightIntensity1"
-                                                                          ValueChanged="nLightIntensity1_ValueChanged"
-                                                                          Width="50"
-                                                                          Minimum="0"
-                                                                          Maximum="255"
-                                                                          TextAlign="Right"
-                                                                          ></wf:NumericUpDown>
-                                                    </WindowsFormsHost>
-                                                    <WindowsFormsHost Width="50" Height="20" Margin="10,0,0,5" Background="#FFFFFFFF">
-                                                        <wf:NumericUpDown x:Name="nLightIntensity2"
-                                                                          ValueChanged="nLightIntensity2_ValueChanged"
-                                                                          Width="50"
-                                                                          Minimum="0"
-                                                                          Maximum="255"
-                                                                          TextAlign="Right"
-                                                                          ></wf:NumericUpDown>
-                                                    </WindowsFormsHost>
-                                                    <WindowsFormsHost Width="50" Height="20"
-                                                                      Margin="40,0,0,5"
-                                                                      Background="#FFFFFFFF">
-                                                        <wf:NumericUpDown x:Name="nLightIntensity3"
-                                                                          ValueChanged="nLightIntensity3_ValueChanged"
-                                                                          Width="50"
-                                                                          Minimum="0"
-                                                                          Maximum="255"
-                                                                          TextAlign="Right"
-                                                                          ></wf:NumericUpDown>
-                                                    </WindowsFormsHost>
-                                                    <WindowsFormsHost Width="50" Height="20" Margin="10,0,0,5" Background="#FFFFFFFF">
-                                                        <wf:NumericUpDown x:Name="nLightIntensity4"
-                                                                          ValueChanged="nLightIntensity4_ValueChanged"
-                                                                          Width="50"
-                                                                          Minimum="0"
-                                                                          Maximum="255"
-                                                                          TextAlign="Right"
-                                                                          ></wf:NumericUpDown>
-                                                    </WindowsFormsHost>
                                                 </StackPanel>
                                             </StackPanel>
                                         </StackPanel>

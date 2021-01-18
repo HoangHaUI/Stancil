@@ -25,10 +25,6 @@ namespace SPI_AOI.Views.MainConfigWindow
         {
             string[] ports = SerialPort.GetPortNames();
             cbCom.Items.AddRange(ports);
-            if (ports.Contains(mParam.LIGHT_COM))
-            {
-                cbCom.SelectedItem = mParam.LIGHT_COM;
-            }
             ActiveUI();
         }
 

@@ -154,8 +154,10 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="DB\Ctl.cs" />
+    <Compile Include="DB\ModelsManager.cs" />
     <Compile Include="DB\Result.cs" />
     <Compile Include="DB\SQLiteConn.cs" />
+    <Compile Include="DB\Table\MyModel.cs" />
     <Compile Include="DB\Table\Result.cs" />
     <Compile Include="Devices\LightSource.cs" />
     <Compile Include="Devices\MyCamera.cs" />
@@ -168,7 +170,9 @@
     <Compile Include="Models\GerberFile.cs" />
     <Compile Include="Models\Hardware.cs" />
     <Compile Include="Models\Mark.cs" />
+    <Compile Include="Models\MeasurePoints.cs" />
     <Compile Include="Models\Model.cs" />
+    <Compile Include="Models\MyModel.cs" />
     <Compile Include="Models\PadItem.cs" />
     <Compile Include="Models\ShowModel.cs" />
     <Compile Include="Models\Utils.cs" />

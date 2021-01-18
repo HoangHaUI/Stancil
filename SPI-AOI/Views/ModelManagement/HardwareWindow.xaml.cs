@@ -18,6 +18,7 @@ using SPI_AOI.Models;
 using System.Threading;
 using System.Diagnostics;
 using NLog;
+using System.Drawing;
 
 
 namespace SPI_AOI.Views.ModelManagement
@@ -28,12 +29,12 @@ namespace SPI_AOI.Views.ModelManagement
     public partial class HardwareWindow : Window
     {
         Model mModel = null;
+        System.Drawing.Point mMesurePoint;
         Logger mLog = Heal.LogCtl.GetInstance();
         IOT.HikCamera mCamera = Devices.MyCamera.GetInstance();
         System.Timers.Timer mTimer = new System.Timers.Timer(10);
-        Devices.DKZ224V4ACCom mLightSource = new Devices.DKZ224V4ACCom(Properties.Settings.Default.LIGHT_COM);
         CalibrateInfo mCalibImage = CalibrateLoader.GetIntance();
-        Devices.MyPLC mPLC = new Devices.MyPLC();
+        Devices.MyPLC mPLC  = new Devices.MyPLC();
         bool mIsTimerRunning = false;
         bool mLoaded = false;
         int mCount = 10;
@@ -52,12 +53,27 @@ namespace SPI_AOI.Views.ModelManagement
         double mSearchX = 5;
         double mSearchY = 5;
         float mDPI = 500;
+        Devices.MyPLC.StatusDoor mStatusDoor = Devices.MyPLC.StatusDoor.CLOSE;
+        bool mTesting = false;
+        
+
         public HardwareWindow(Model model)
         {
             mModel = model;
             LoadVariables();
             InitializeComponent();
             LoadUI();
+            LoginPLC();
+            
+        }
+        private void LoginPLC()
+        {
+            int ret = mPLC.Login_Jog();
+            if (ret != 1)
+            {
+                MessageBox.Show("Loging Plc is unsuccessful!!");
+                return;
+            }
         }
         private void Window_Initialized(object sender, EventArgs e)
         {
@@ -65,6 +81,17 @@ namespace SPI_AOI.Views.ModelManagement
         }
         public void LoadVariables()
         {
+            // Check MeasurePoints
+
+            foreach (System.Drawing.Point subP in mModel.MeasurePoints.Points)
+            {
+                if (subP == null)
+                {
+                    mModel.MeasurePoints.Points = new List<System.Drawing.Point>();
+                    break;
+                }
+            }
+
             if (mModel.Gerber.MarkPoint.PadMark[0] > 0)
             {
                 mPadMark = mModel.Gerber.PadItems[mModel.Gerber.MarkPoint.PadMark[0]];
@@ -90,70 +117,55 @@ namespace SPI_AOI.Views.ModelManagement
         private void ApplyModelSettings()
         {
             mCamera.SetParameter(IOT.KeyName.ExposureTime, Convert.ToInt32(mExposureTime));
-            mLightSource.SetFour(mLightIntensity[0], mLightIntensity[1], mLightIntensity[2], mLightIntensity[3]);
-            mLightSource.ActiveFour(1,1,1,1);
             mCamera.SetParameter(IOT.KeyName.Gain, (float)(mGain));
         }
         public void LoadUI()
         {
-            grSettings.IsEnabled = false;
+            grSettings.IsEnabled = true;
             // check the connect
 
-            Thread threadCheck = new Thread(() => {
-                if (mPadMark == null)
-                {
-                    MessageBox.Show("Please settings Mark in gerber settings before do this!", "ERROR", MessageBoxButton.OK, MessageBoxImage.Error);
-                    return;
-                }
-                if (mCamera == null)
-                {
-                    MessageBox.Show("Not found camera, please check the cable!", "ERROR", MessageBoxButton.OK, MessageBoxImage.Error);
-                    return;
-                }
-                if(mPLC.Ping() != 0)
-                {
-                    MessageBox.Show("Cant ping to PLC, please check the cable and try again!", "ERROR", MessageBoxButton.OK, MessageBoxImage.Error);
-                    return;
-                }
-                if(mLightSource.Open() != 0)
-                {
-                    MessageBox.Show("Cant open COM light source, please check the cable and try again!", "ERROR", MessageBoxButton.OK, MessageBoxImage.Error);
-                    return;
-                }
-                int r = mCamera.Open();
-                if(r != 0)
-                {
-                    MessageBox.Show("Cant open camera, please check the cable!", "ERROR", MessageBoxButton.OK, MessageBoxImage.Error);
-                    mLightSource.Close();
-                    return;
-                }
-                mCamera.StartGrabbing();
-                this.Dispatcher.Invoke(() => {
-                LoadIndexReadCodePosition();
-                mPLC.Login();
-                nExposureTime.Value = Convert.ToInt32(mExposureTime);
-                nGain.Value = Convert.ToDecimal(mGain);
-                nLightIntensity1.Value = Convert.ToDecimal(mLightIntensity[0]);
-                nLightIntensity2.Value = Convert.ToDecimal(mLightIntensity[1]);
-                nLightIntensity3.Value = Convert.ToDecimal(mLightIntensity[2]);
-                nLightIntensity4.Value = Convert.ToDecimal(mLightIntensity[3]);
-                nScanWidth.Value = Convert.ToDecimal(mScanWidth);
-                nScanHeight.Value = Convert.ToDecimal(mScanHeight);
+            //Thread threadCheck = new Thread(() => {
+            //    if (mPadMark == null)
+            //    {
+            //        MessageBox.Show("Please settings Mark in gerber settings before do this!", "ERROR", MessageBoxButton.OK, MessageBoxImage.Error);
+            //        return;
+            //    }
+            //    if (mCamera == null)
+            //    {
+            //        MessageBox.Show("Not found camera, please check the cable!", "ERROR", MessageBoxButton.OK, MessageBoxImage.Error);
+            //        return;
+            //    }
+            //    if(mPLC.Ping() != 0)
+            //    {
+            //        MessageBox.Show("Cant ping to PLC, please check the cable and try again!", "ERROR", MessageBoxButton.OK, MessageBoxImage.Error);
+            //        return;
+            //    }
+            //    int r = mCamera.Open();
+            //    if(r != 0)
+            //    {
+            //        MessageBox.Show("Cant open camera, please check the cable!", "ERROR", MessageBoxButton.OK, MessageBoxImage.Error);
+            //        return;
+            //    }
+            //    mCamera.StartGrabbing();
+            //    this.Dispatcher.Invoke(() => {
+            //    LoadIndexReadCodePosition();
+            //    nExposureTime.Value = Convert.ToInt32(mExposureTime);
+            //    nGain.Value = Convert.ToDecimal(mGain);
                 
-                // teach matching
-                nSearchX.Value = Convert.ToDecimal(mSearchX);
-                nSearchY.Value = Convert.ToDecimal(mSearchY);
-                nMatchingScore.Value = Convert.ToDecimal(mMatchingScore);
-                nGrayLevel.Value = Convert.ToDecimal(mGrayLevel);
-                grSettings.IsEnabled = true;
-                });
-                mIsTimerRunning = true;
-                mTimer.Elapsed += OnTimedEvent;
-                mTimer.Enabled = true;
-                ApplyModelSettings();
-                mLoaded = true;
-            });
-            threadCheck.Start();
+            //    // teach matching
+            //    nSearchX.Value = Convert.ToDecimal(mSearchX);
+            //    nSearchY.Value = Convert.ToDecimal(mSearchY);
+            //    nMatchingScore.Value = Convert.ToDecimal(mMatchingScore);
+            //    nGrayLevel.Value = Convert.ToDecimal(mGrayLevel);
+            //    grSettings.IsEnabled = true;
+            //    });
+            //    mIsTimerRunning = true;
+            //    mTimer.Elapsed += OnTimedEvent;
+            //    mTimer.Enabled = true;
+            //    ApplyModelSettings();
+            //    mLoaded = true;
+            //});
+            //threadCheck.Start();
         }
         private void OnTimedEvent(object sender, System.Timers.ElapsedEventArgs e)
         {
@@ -231,140 +243,63 @@ namespace SPI_AOI.Views.ModelManagement
         
         private void btUp_MouseDown(object sender, MouseButtonEventArgs e)
         {
+            mPLC.Jog_Up(1);
             if (!mLoaded)
                 return;
-            mPLC.Login();
-            if (rbTopAxis.IsChecked == true)
-            {
-                mPLC.Set_Go_Up_Top();
-            }
-            if (rbBotAxis.IsChecked == true)
-            {
-                mPLC.Set_Go_Up_Bot();
-            }
-            if(rbConveyor.IsChecked == true)
-            {
-                mPLC.Set_Go_Up_Conveyor();
-            }
         }
 
         private void btLeft_MouseDown(object sender, MouseButtonEventArgs e)
         {
+            mPLC.Jog_Left(1);
             if (!mLoaded)
                 return;
-            mPLC.Login();
-            if (rbTopAxis.IsChecked == true)
-            {
-                mPLC.Set_Go_Left_Top();
-            }
-            if (rbBotAxis.IsChecked == true)
-            {
-                mPLC.Set_Go_Left_Bot();
-            }
             
         }
 
         private void btRight_MouseDown(object sender, MouseButtonEventArgs e)
         {
+            mPLC.Jog_Right(1);
             if (!mLoaded)
                 return;
-            mPLC.Login();
-            if (rbTopAxis.IsChecked == true)
-            {
-                mPLC.Set_Go_Right_Top();
-            }
-            if (rbBotAxis.IsChecked == true)
-            {
-                mPLC.Set_Go_Right_Bot();
-            }
         }
 
         private void btDown_MouseDown(object sender, MouseButtonEventArgs e)
         {
+            mPLC.Jog_Down(1);
             if (!mLoaded)
                 return;
-            mPLC.Login();
-            if (rbTopAxis.IsChecked == true)
-            {
-                mPLC.Set_Go_Down_Top();
-            }
-            if (rbBotAxis.IsChecked == true)
-            {
-                mPLC.Set_Go_Down_Bot();
-            }
-            if (rbConveyor.IsChecked == true)
-            {
-                mPLC.Set_Go_Down_Conveyor();
-            }
         }
         private void btDown_MouseUp(object sender, MouseButtonEventArgs e)
         {
+            mPLC.Jog_Down(0);
+            UpdateDisplayCoor();
             if (!mLoaded)
                 return;
-            if (rbTopAxis.IsChecked == true)
-            {
-                mPLC.Reset_Go_Down_Top();
-                mMarkPoint = GetTopCoordinates();
-            }
-            if (rbBotAxis.IsChecked == true)
-            {
-                mPLC.Reset_Go_Down_Bot();
-            }
-            if (rbConveyor.IsChecked == true)
-            {
-                mPLC.Reset_Go_Down_Conveyor();
-                mConveyor = GetConveyorCoordinates();
-            }
         }
 
         private void btRight_MouseUp(object sender, MouseButtonEventArgs e)
         {
+            mPLC.Jog_Right(0);
+            UpdateDisplayCoor();
             if (!mLoaded)
                 return;
-            if (rbTopAxis.IsChecked == true)
-            {
-                mPLC.Reset_Go_Right_Top();
-                mMarkPoint = GetTopCoordinates();
-            }
-            if (rbBotAxis.IsChecked == true)
-            {
-                mPLC.Reset_Go_Right_Bot();
-            }
         }
 
         private void btLeft_MouseUp(object sender, MouseButtonEventArgs e)
         {
+            mPLC.Jog_Left(0);
+            UpdateDisplayCoor();
             if (!mLoaded)
                 return;
-            if (rbTopAxis.IsChecked == true)
-            {
-                mPLC.Reset_Go_Left_Top();
-                mMarkPoint = GetTopCoordinates();
-            }
-            if (rbBotAxis.IsChecked == true)
-            {
-                mPLC.Reset_Go_Left_Bot();
-            }
         }
 
         private void btUp_MouseUp(object sender, MouseButtonEventArgs e)
         {
+            mPLC.Jog_Up(0);
+            UpdateDisplayCoor();
             if (!mLoaded)
                 return;
-            if (rbTopAxis.IsChecked == true)
-            {
-                mPLC.Reset_Go_Up_Top();
-                mMarkPoint = GetTopCoordinates();
-            }
-            if (rbBotAxis.IsChecked == true)
-            {
-                mPLC.Reset_Go_Up_Bot();
-            }
-            if (rbConveyor.IsChecked == true)
-            {
-                mPLC.Reset_Go_Up_Conveyor();
-                mConveyor = GetConveyorCoordinates();
-            }
+
         }
         
 
@@ -373,18 +308,7 @@ namespace SPI_AOI.Views.ModelManagement
             if (!mLoaded)
                 return;
             slSpeed.Value = (int)slSpeed.Value;
-            if (rbTopAxis.IsChecked == true)
-            {
-                mPLC.Set_Speed_Top(Convert.ToInt32(slSpeed.Value * 5));
-            }
-            if (rbBotAxis.IsChecked == true)
-            {
-                mPLC.Set_Speed_Bot(Convert.ToInt32(slSpeed.Value * 5));
-            }
-            if (rbConveyor.IsChecked == true)
-            {
-                mPLC.Set_Speed_Conveyor(Convert.ToInt32(slSpeed.Value * 8));
-            }
+            mPLC.Set_Speed_XY(int.Parse(slSpeed.Value.ToString()));
         }
         private void nExposureTime_ValueChanged(object sender, EventArgs e)
         {
@@ -406,9 +330,6 @@ namespace SPI_AOI.Views.ModelManagement
         {
             if (!mLoaded)
                 return;
-            mLightIntensity[0] = Convert.ToInt32((sender as System.Windows.Forms.NumericUpDown).Value);
-            int[] value = mLightIntensity;
-            mLightSource.SetFour(value[0], value[1], value[2], value[3]);
         }
 
 
@@ -416,27 +337,21 @@ namespace SPI_AOI.Views.ModelManagement
         {
             if (!mLoaded)
                 return;
-            mLightIntensity[1] = Convert.ToInt32((sender as System.Windows.Forms.NumericUpDown).Value);
-            int[] value = mLightIntensity;
-            mLightSource.SetFour(value[0], value[1], value[2], value[3]);
+
         }
 
         private void nLightIntensity3_ValueChanged(object sender, EventArgs e)
         {
             if (!mLoaded)
                 return;
-            mLightIntensity[2] = Convert.ToInt32((sender as System.Windows.Forms.NumericUpDown).Value);
-            int[] value = mLightIntensity;
-            mLightSource.SetFour(value[0], value[1], value[2], value[3]);
+
         }
 
         private void nLightIntensity4_ValueChanged(object sender, EventArgs e)
         {
             if (!mLoaded)
                 return;
-            mLightIntensity[3] = Convert.ToInt32((sender as System.Windows.Forms.NumericUpDown).Value);
-            int[] value = mLightIntensity;
-            mLightSource.SetFour(value[0], value[1], value[2], value[3]);
+
         }
         private void nSearchX_ValueChanged(object sender, EventArgs e)
         {
@@ -495,7 +410,7 @@ namespace SPI_AOI.Views.ModelManagement
         private void SaveChanged()
         {
             mMarkPoint = GetTopCoordinates();
-            mConveyor = GetConveyorCoordinates();
+            //mConveyor = GetConveyorCoordinates();
             mModel.HardwareSettings.ReadCodePosition = new List<ReadCodePosition>();
             for (int i = 0; i < mReadCodePosition.Count; i++)
             {
@@ -512,7 +427,7 @@ namespace SPI_AOI.Views.ModelManagement
             mModel.Gerber.MarkPoint.SearchX = mSearchX;
             mModel.Gerber.MarkPoint.SearchY = mSearchY;
             
-            mModel.HardwareSettings.Conveyor = mConveyor;
+            //mModel.HardwareSettings.Conveyor = mConveyor;
 
 
             int searchW = Convert.ToInt32(mSearchX * mModel.DPI / 25.4);
@@ -554,12 +469,16 @@ namespace SPI_AOI.Views.ModelManagement
                             mCamera.Close();
                         }
                     }
-                    mLightSource.ActiveFour(0, 0, 0, 0);
-                    mLightSource.Close();
+
                 }
             }
         }
 
+        private void UpdateDisplayCoor()
+        {
+            tbCurX.Text = mPLC.Get_X().ToString();
+            tbCurY.Text = mPLC.Get_Y().ToString();
+        }
         private void rbConveyor_Checked(object sender, RoutedEventArgs e)
         {
             if (!mLoaded)
@@ -604,164 +523,123 @@ namespace SPI_AOI.Views.ModelManagement
         }
         private void SetConveyor(int x)
         {
-            mPLC.Reset_Go_Coordinates_Finish_Setup_Conveyor();
-            mPLC.Set_Conveyor(x);
-            mPLC.Set_Write_Coordinates_Finish_Setup_Conveyor();
         }
         private void SetTopAxis(int x, int y)
         {
-            mPLC.Reset_Go_Coordinates_Finish_Setup_Top();
-            mPLC.Set_X_Top(x);
-            mPLC.Set_Y_Top(y);
-            mPLC.Set_Write_Coordinates_Finish_Setup_Top();
         }
         private void SetBotAxis(int x, int y)
         {
-            mPLC.Reset_Go_Coordinates_Finish_Setup_Bot();
-            mPLC.Set_X_Bot(x);
-            mPLC.Set_Y_Bot(y);
-            mPLC.Set_Write_Coordinates_Finish_Setup_Bot();
         }
         public System.Drawing.Point GetTopCoordinates()
         {
-            int x = mPLC.Get_X_Top();
-            int y = mPLC.Get_Y_Top();
+            int x = mPLC.Get_X();
+            int y = mPLC.Get_Y();
             return new System.Drawing.Point(x, y);
         }
-        public double GetConveyorCoordinates()
+        public void GetConveyorCoordinates()
         {
-            return mPLC.Get_Conveyor();
+            //return mPLC.Get_Conveyor();
         }
         private void cbScanPointID_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            if(cbScanPointID.SelectedIndex >= 0)
-            {
-                ReadCodePosition readCodeInfo = mModel.HardwareSettings.ReadCodePosition[cbScanPointID.SelectedIndex];
-                if(readCodeInfo.Surface ==  Surface.TOP)
-                {
-                    SetTopAxis(readCodeInfo.Origin.X, readCodeInfo.Origin.Y);
-                } 
-                else if (readCodeInfo.Surface == Surface.BOT)
-                {
-                    SetBotAxis(readCodeInfo.Origin.X, readCodeInfo.Origin.Y);
-                }
-                nScanWidth.Value = Convert.ToDecimal(readCodeInfo.Width);
-                nScanHeight.Value = Convert.ToDecimal(readCodeInfo.Height);
-            }
         }
         private void LoadIndexReadCodePosition()
         {
-            cbScanPointID.Items.Clear();
-            for (int i = 0; i < mReadCodePosition.Count; i++)
-            {
-                cbScanPointID.Items.Add(i + 1);
-            }
         }
         private void btAddScan_Click(object sender, RoutedEventArgs e)
         {
-            int x = 0;
-            int y = 0;
-            Surface surface = Surface.TOP;
-            if(rbBotAxis.IsChecked == true)
-            {
-                x = mPLC.Get_X_Bot();
-                y = mPLC.Get_Y_Bot();
-                surface = Surface.BOT;
-            }
-            if(rbTopAxis.IsChecked == true)
-            {
-                x = mPLC.Get_X_Top();
-                y = mPLC.Get_Y_Top();
-                surface = Surface.TOP;
-            }
-            var r = MessageBox.Show(string.Format("Are you want to add\nPoint ({0},{1}) \nSurface {2}\n to read code position?", x, y, surface), "Information", MessageBoxButton.YesNoCancel, MessageBoxImage.Question);
-            if (r == MessageBoxResult.Yes)
-            {
-                ReadCodePosition readCodeInfo = new ReadCodePosition();
-                readCodeInfo.Origin = new System.Drawing.Point(x, y);
-                readCodeInfo.Surface = surface;
-                readCodeInfo.Height = mScanHeight;
-                readCodeInfo.Width = mScanWidth;
-                mReadCodePosition.Add(readCodeInfo);
-                LoadIndexReadCodePosition();
-                MessageBox.Show("Add successfully!", "Information", MessageBoxButton.OK, MessageBoxImage.Information);
-            }
+            //int x = 0;
+            //int y = 0;
+            //Surface surface = Surface.TOP;
+            //if(rbBotAxis.IsChecked == true)
+            //{
+            //    x = mPLC.Get_X_Bot();
+            //    y = mPLC.Get_Y_Bot();
+            //    surface = Surface.BOT;
+            //}
+            //if(rbTopAxis.IsChecked == true)
+            //{
+            //    x = mPLC.Get_X_Top();
+            //    y = mPLC.Get_Y_Top();
+            //    surface = Surface.TOP;
+            //}
+            //var r = MessageBox.Show(string.Format("Are you want to add\nPoint ({0},{1}) \nSurface {2}\n to read code position?", x, y, surface), "Information", MessageBoxButton.YesNoCancel, MessageBoxImage.Question);
+            //if (r == MessageBoxResult.Yes)
+            //{
+            //    ReadCodePosition readCodeInfo = new ReadCodePosition();
+            //    readCodeInfo.Origin = new System.Drawing.Point(x, y);
+            //    readCodeInfo.Surface = surface;
+            //    readCodeInfo.Height = mScanHeight;
+            //    readCodeInfo.Width = mScanWidth;
+            //    mReadCodePosition.Add(readCodeInfo);
+            //    LoadIndexReadCodePosition();
+            //    MessageBox.Show("Add successfully!", "Information", MessageBoxButton.OK, MessageBoxImage.Information);
+            //}
         }
 
         private void btDelScan_Click(object sender, RoutedEventArgs e)
         {
-            int id = cbScanPointID.SelectedIndex;
-            if (id >= 0)
-            {
-                var p = mReadCodePosition[id];
-                int x = p.Origin.X;
-                int y = p.Origin.Y;
-                Surface surface = p.Surface;
-                var r = MessageBox.Show(string.Format("Are you want to add\nPoint ({0},{1}) \nSurface {2}\n to read code position?", x, y, surface), "Information", MessageBoxButton.YesNoCancel, MessageBoxImage.Question);
-                if (r == MessageBoxResult.Yes)
-                {
-                    mReadCodePosition.RemoveAt(id);
-                    LoadIndexReadCodePosition();
-                    MessageBox.Show(string.Format("Delete successfully!"), "Information", MessageBoxButton.OK, MessageBoxImage.Information);
-                }
-            }
+
         }
 
         private void btGoXYZ_Click(object sender, RoutedEventArgs e)
         {
-            mPLC.Login();
-            mPLC.Set_Speed_Top(3000);
-            mPLC.Set_Speed_Bot(6000);
-            mPLC.Set_Speed_Conveyor(8000);
+            mPLC.Run_Jog(1);
+            //mPLC.Login();
+            //mPLC.Set_Speed_Top(3000);
+            //mPLC.Set_Speed_Bot(6000);
+            //mPLC.Set_Speed_Conveyor(8000);
             
-            int conveyorPulse = mPLC.Get_Conveyor();
-            mLog.Info(string.Format("Current Pulse conveyor {0} => {1}", conveyorPulse, mConveyor));
-            if (conveyorPulse != mConveyor)
-            {
-                SetConveyor(Convert.ToInt32(mConveyor));
-                grSettings.IsEnabled = true;
-                WaitingForm wait = new WaitingForm("Moving conveyor...");
-                Stopwatch sw = new Stopwatch();
-                Thread a = new Thread(() => {
+            //int conveyorPulse = mPLC.Get_Conveyor();
+            //mLog.Info(string.Format("Current Pulse conveyor {0} => {1}", conveyorPulse, mConveyor));
+            //if (conveyorPulse != mConveyor)
+            //{
+            //    SetConveyor(Convert.ToInt32(mConveyor));
+            //    grSettings.IsEnabled = true;
+            //    WaitingForm wait = new WaitingForm("Moving conveyor...");
+            //    Stopwatch sw = new Stopwatch();
+            //    Thread a = new Thread(() => {
 
-                    sw.Start();
-                    while (mPLC.Get_Go_Coordinates_Finish_Setup_Conveyor() != 1 && sw.ElapsedMilliseconds < 180000)
-                    {
-                        Thread.Sleep(100);
-                    }
-                    wait.KillMe = true;
-                });
+            //        sw.Start();
+            //        while (mPLC.Get_Go_Coordinates_Finish_Setup_Conveyor() != 1 && sw.ElapsedMilliseconds < 180000)
+            //        {
+            //            Thread.Sleep(100);
+            //        }
+            //        wait.KillMe = true;
+            //    });
 
-                a.Start();
-                wait.ShowDialog();
+            //    a.Start();
+            //    wait.ShowDialog();
 
-                if (sw.ElapsedMilliseconds > 180000)
-                {
-                    MessageBox.Show("Timeout move conveyor!", "ERROR", MessageBoxButton.OK, MessageBoxImage.Error);
-                }
-                Thread.Sleep(500);
-                mPLC.Reset_Go_Coordinates_Finish_Setup_Conveyor();
-            }
-            SetTopAxis(mMarkPoint.X, mMarkPoint.Y);
-            if (mReadCodePosition.Count > 0)
-            {
-                if (mReadCodePosition[0].Surface == Surface.BOT)
-                {
-                    SetBotAxis(mReadCodePosition[0].Origin.X, mReadCodePosition[0].Origin.Y);
-                }
-            }
+            //    if (sw.ElapsedMilliseconds > 180000)
+            //    {
+            //        MessageBox.Show("Timeout move conveyor!", "ERROR", MessageBoxButton.OK, MessageBoxImage.Error);
+            //    }
+            //    Thread.Sleep(500);
+            //    mPLC.Reset_Go_Coordinates_Finish_Setup_Conveyor();
+            //}
+            //SetTopAxis(mMarkPoint.X, mMarkPoint.Y);
+            //if (mReadCodePosition.Count > 0)
+            //{
+            //    if (mReadCodePosition[0].Surface == Surface.BOT)
+            //    {
+            //        SetBotAxis(mReadCodePosition[0].Origin.X, mReadCodePosition[0].Origin.Y);
+            //    }
+            //}
         }
 
         private void btLoad_Click(object sender, RoutedEventArgs e)
         {
-            mPLC.Login();
-            mPLC.Set_Load_Product();
+            mPLC.Load_Panel(1);
+            //mPLC.Login();
+            //mPLC.Set_Load_Product();
         }
 
         private void btUnload_Click(object sender, RoutedEventArgs e)
         {
-            mPLC.Login();
-            mPLC.Set_Unload_Product();
+            mPLC.Unload_Panel(1);
+            //mPLC.Login();
+            //mPLC.Set_Unload_Product();
         }
 
         private void Window_SizeChanged(object sender, SizeChangedEventArgs e)
@@ -776,9 +654,91 @@ namespace SPI_AOI.Views.ModelManagement
 
         }
 
-        private void btAutoAdjust_Click(object sender, RoutedEventArgs e)
+        private void btNext_Click(object sender, RoutedEventArgs e)
         {
 
+            if(tbId.Text == "9")
+            {
+                MessageBox.Show("Cant next point!", "Warning");
+                return;
+            }
+            int  id = int.Parse(tbId.Text);
+            id++;
+            tbId.Text = id.ToString();
+            mMesurePoint = mModel.MeasurePoints.Points[int.Parse(tbId.Text)];
+            tbX.Text = mMesurePoint.X.ToString();
+            tbY.Text = mMesurePoint.Y.ToString();
+            GoToCertainPoint(mMesurePoint);
+            
+        }
+
+        private void tbId_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+        private void GoToCertainPoint(System.Drawing.Point p)
+        {
+            mPLC.Set_XY(mMesurePoint.X, mMesurePoint.Y);
+        }
+
+        private void btnCloseDoor_Click(object sender, RoutedEventArgs e)
+        {
+            if (mStatusDoor == Devices.MyPLC.StatusDoor.CLOSE)
+            {
+                mStatusDoor = Devices.MyPLC.StatusDoor.OPEN;
+                mPLC.CloseDoor(1);
+            }
+            else
+            {
+                mStatusDoor = Devices.MyPLC.StatusDoor.CLOSE;
+                mPLC.CloseDoor(0);
+            }
+
+        }
+
+        private void btBack_Click(object sender, RoutedEventArgs e)
+        {
+            int id = int.Parse(tbId.Text);
+            if (id == 1)
+            {
+                MessageBox.Show("Cant Back!!");
+                return;
+            }
+            id--;
+            tbId.Text = id.ToString();
+            mMesurePoint = mModel.MeasurePoints.Points[int.Parse(tbId.Text)];
+            tbX.Text = mMesurePoint.X.ToString();
+            tbY.Text = mMesurePoint.Y.ToString();
+            GoToCertainPoint(mMesurePoint);
+        }
+
+        private void btSave_Click(object sender, RoutedEventArgs e)
+        {
+            mModel.MeasurePoints.Points[int.Parse(tbId.Text)] = new
+                System.Drawing.Point(int.Parse(tbCurX.Text), int.Parse(tbCurY.Text));
+        }
+        private void Testing()
+        {
+            while (mTesting)
+            {
+                foreach (System.Drawing.Point p in mModel.MeasurePoints.Points)
+                {
+                    mPLC.Run_With_XY(p.X, p.Y, 5000);
+                }
+            }
+        }
+        private void btRun_Click(object sender, RoutedEventArgs e)
+        {
+            if (mTesting == false)
+            {
+                mTesting = true;
+                new Thread(Testing).Start();
+            }
+            else
+            {
+                mTesting = false;
+            }
+            
         }
     }
 }

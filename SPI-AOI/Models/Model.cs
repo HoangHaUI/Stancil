@@ -36,6 +36,7 @@ namespace SPI_AOI.Models
         public bool ShowOnlyInROI { get; set; }
         public bool HightLineLinkedPad { get; set; }
         public Hardware HardwareSettings { get; set; }
+        public MeasurePoints MeasurePoints { get; set; }
 
         private static string ModelPath = "Models";
         public static Model GetNewModel(

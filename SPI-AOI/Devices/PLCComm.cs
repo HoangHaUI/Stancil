@@ -46,7 +46,7 @@ namespace SPI_AOI.Devices
             sw.Start();
             while (true)
             {
-                val = Get_Go_Coordinates_Finish_Top();
+                val = Get_Trigger_XY();
                 if (val == 1 || sw.ElapsedMilliseconds == 5000)
                     break;
                 Thread.Sleep(3);

@@ -17,12 +17,6 @@ namespace SPI_AOI.Models
         public double Conveyor { get; set; }
         public Hardware()
         {
-            this.LightIntensity = new int[4] { 
-                Properties.Settings.Default.LIGHT_SETUP_DEFAULT_INTENSITY_CH1,
-                Properties.Settings.Default.LIGHT_SETUP_DEFAULT_INTENSITY_CH2,
-                Properties.Settings.Default.LIGHT_SETUP_DEFAULT_INTENSITY_CH3,
-                Properties.Settings.Default.LIGHT_SETUP_DEFAULT_INTENSITY_CH4
-            };
             this.Gain = 0;
             this.ExposureTime = Properties.Settings.Default.CAMERA_SETUP_EXPOSURE_TIME;
             this.MarkPosition = new Point(0,0);

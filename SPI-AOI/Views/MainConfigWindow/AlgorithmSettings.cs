@@ -52,8 +52,6 @@ namespace SPI_AOI.Views.MainConfigWindow
             }
             nFOVW.Value = mParam.FOV.Width;
             nFOVH.Value = mParam.FOV.Height;
-            nPulsePerPixelX.Value = Convert.ToDecimal(mParam.PULSE_X_PER_PIXEL_DEFAULT);
-            nPulsePerPixelY.Value = Convert.ToDecimal(mParam.PULSE_Y_PER_PIXEL_DEFAULT);
             nPulseScaleX.Value = Convert.ToDecimal(mParam.SCALE_PULSE_X);
             nPulseScaleY.Value = Convert.ToDecimal(mParam.SCALE_PULSE_Y);
             nAngleCameraX.Value = Convert.ToDecimal(mParam.CAMERA_X_AXIS_ANGLE);
@@ -63,10 +61,6 @@ namespace SPI_AOI.Views.MainConfigWindow
             nThicknessDefault.Value = Convert.ToDecimal(mParam.THICKNESS_DEFAULT);
             nExposureTime.Value = Convert.ToDecimal(mParam.CAMERA_SETUP_EXPOSURE_TIME);
             nGain.Value = Convert.ToDecimal(mParam.CAMERA_GAIN);
-            nLightCH1.Value = Convert.ToDecimal(mParam.LIGHT_SETUP_DEFAULT_INTENSITY_CH1);
-            nLightCH2.Value = Convert.ToDecimal(mParam.LIGHT_SETUP_DEFAULT_INTENSITY_CH2);
-            nLightCH3.Value = Convert.ToDecimal(mParam.LIGHT_SETUP_DEFAULT_INTENSITY_CH3);
-            nLightCH4.Value = Convert.ToDecimal(mParam.LIGHT_SETUP_DEFAULT_INTENSITY_CH4);
             mLoaded = true;
         }
 
@@ -125,7 +119,6 @@ namespace SPI_AOI.Views.MainConfigWindow
             if (!mLoaded)
                 return;
             NumericUpDown numeric = sender as NumericUpDown;
-            mParam.PULSE_X_PER_PIXEL_DEFAULT = Convert.ToDouble(numeric.Value);
             mParam.Save();
         }
 
@@ -134,7 +127,6 @@ namespace SPI_AOI.Views.MainConfigWindow
             if (!mLoaded)
                 return;
             NumericUpDown numeric = sender as NumericUpDown;
-            mParam.PULSE_Y_PER_PIXEL_DEFAULT = Convert.ToDouble(numeric.Value);
             mParam.Save();
         }
 
@@ -224,7 +216,6 @@ namespace SPI_AOI.Views.MainConfigWindow
             if (!mLoaded)
                 return;
             NumericUpDown numeric = sender as NumericUpDown;
-            mParam.LIGHT_SETUP_DEFAULT_INTENSITY_CH1 = Convert.ToInt32(numeric.Value);
             mParam.Save();
         }
 
@@ -233,7 +224,6 @@ namespace SPI_AOI.Views.MainConfigWindow
             if (!mLoaded)
                 return;
             NumericUpDown numeric = sender as NumericUpDown;
-            mParam.LIGHT_SETUP_DEFAULT_INTENSITY_CH2 = Convert.ToInt32(numeric.Value);
             mParam.Save();
         }
 
@@ -242,7 +232,6 @@ namespace SPI_AOI.Views.MainConfigWindow
             if (!mLoaded)
                 return;
             NumericUpDown numeric = sender as NumericUpDown;
-            mParam.LIGHT_SETUP_DEFAULT_INTENSITY_CH3 = Convert.ToInt32(numeric.Value);
             mParam.Save();
         }
         private void nLightCH4_ValueChanged(object sender, EventArgs e)
@@ -250,7 +239,6 @@ namespace SPI_AOI.Views.MainConfigWindow
             if (!mLoaded)
                 return;
             NumericUpDown numeric = sender as NumericUpDown;
-            mParam.LIGHT_SETUP_DEFAULT_INTENSITY_CH4 = Convert.ToInt32(numeric.Value);
             mParam.Save();
         }
         private void nFOVW_ValueChanged(object sender, EventArgs e)
